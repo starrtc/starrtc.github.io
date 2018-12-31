@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>starRTC文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/android-errCode.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://docs_new.starrtc.com/docs/zh-cn/docs/android-errCode.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/android-errCode.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://www.starRTC.com/googleapis.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="starRTC文档">
+  <!-- Open Graph -->
+  <meta name="description" content="ErrorCode对照表   错误码 描述     10000 成功   10001 内部错误   11001 AEC鉴权失败   11002 AEC url连接失败   11003 AEC返回的json格式解析错误   11004 获取guardToken和aec url失败   12001 sendToMoonServer error   12002 用户名超长   12003 用户名不符合类">
+<meta property="og:type" content="website">
+<meta property="og:title" content="starRTC文档">
+<meta property="og:url" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/android-errCode.html">
+<meta property="og:site_name" content="starRTC文档">
+<meta property="og:description" content="ErrorCode对照表   错误码 描述     10000 成功   10001 内部错误   11001 AEC鉴权失败   11002 AEC url连接失败   11003 AEC返回的json格式解析错误   11004 获取guardToken和aec url失败   12001 sendToMoonServer error   12002 用户名超长   12003 用户名不符合类">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2018-12-27T09:59:33.149Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="starRTC文档">
+<meta name="twitter:description" content="ErrorCode对照表   错误码 描述     10000 成功   10001 内部错误   11001 AEC鉴权失败   11002 AEC url连接失败   11003 AEC返回的json格式解析错误   11004 获取guardToken和aec url失败   12001 sendToMoonServer error   12002 用户名超长   12003 用户名不符合类">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      
+      <a href="https://docs.starrtc.com/docs/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/zh-cn/download/" class="main-nav-link">下载</a><a href="/zh-cn/contact/" class="main-nav-link">联系我们</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/android-errCode.html">
+        
+          <option value="en">English</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name"></h1>
+                <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/android-errCode.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="ErrorCode对照表" class="article-heading"><a href="#ErrorCode对照表" class="headerlink" title="ErrorCode对照表"></a>ErrorCode对照表<a class="article-anchor" href="#ErrorCode对照表" aria-hidden="true"></a></h1><table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10000</td>
+<td>成功</td>
+</tr>
+<tr>
+<td>10001</td>
+<td>内部错误</td>
+</tr>
+<tr>
+<td>11001</td>
+<td>AEC鉴权失败</td>
+</tr>
+<tr>
+<td>11002</td>
+<td>AEC url连接失败</td>
+</tr>
+<tr>
+<td>11003</td>
+<td>AEC返回的json格式解析错误</td>
+</tr>
+<tr>
+<td>11004</td>
+<td>获取guardToken和aec url失败</td>
+</tr>
+<tr>
+<td>12001</td>
+<td>sendToMoonServer error</td>
+</tr>
+<tr>
+<td>12002</td>
+<td>用户名超长</td>
+</tr>
+<tr>
+<td>12003</td>
+<td>用户名不符合类似appid_userid的规则</td>
+</tr>
+<tr>
+<td>12004</td>
+<td>verify时用户还未登录</td>
+</tr>
+<tr>
+<td>12005</td>
+<td>verify时提供的starToken不匹配</td>
+</tr>
+<tr>
+<td>12006</td>
+<td>loginMoonServer处理内容过载</td>
+</tr>
+<tr>
+<td>12007</td>
+<td>获取此agent的aecUrl和guardToken失败</td>
+</tr>
+<tr>
+<td>12008</td>
+<td>连接star服务失败</td>
+</tr>
+<tr>
+<td>12009</td>
+<td>star服务返回的agent认证登录地址解析错误</td>
+</tr>
+<tr>
+<td>12010</td>
+<td>连接agent登录认证服务失败</td>
+</tr>
+<tr>
+<td>12011</td>
+<td>agent服务验证失败</td>
+</tr>
+<tr>
+<td>13001</td>
+<td>内容超长</td>
+</tr>
+<tr>
+<td>13002</td>
+<td>HTTP请求没有路径</td>
+</tr>
+<tr>
+<td>13003</td>
+<td>路径格式错误</td>
+</tr>
+<tr>
+<td>13004</td>
+<td>POST内容解析错误</td>
+</tr>
+<tr>
+<td>13005</td>
+<td>POST参数数量错误</td>
+</tr>
+<tr>
+<td>13006</td>
+<td>POST参数错误</td>
+</tr>
+<tr>
+<td>13007</td>
+<td>不支持的协议格式</td>
+</tr>
+<tr>
+<td>20001</td>
+<td>重复登录，被踢下线</td>
+</tr>
+<tr>
+<td>20002</td>
+<td>多次重试发送消息均未得到反馈协议，主动断开</td>
+</tr>
+<tr>
+<td>20003</td>
+<td>socket write时发送错误</td>
+</tr>
+<tr>
+<td>20004</td>
+<td>协议内容超长</td>
+</tr>
+<tr>
+<td>20005</td>
+<td>EPOLL 事件错误</td>
+</tr>
+<tr>
+<td>20006</td>
+<td>EPOLL read错误</td>
+</tr>
+<tr>
+<td>20007</td>
+<td>msgServer顶层协议解析错误</td>
+</tr>
+<tr>
+<td>20008</td>
+<td>msgServer action协议解析错误</td>
+</tr>
+<tr>
+<td>20009</td>
+<td>根据scheduleServer的返回，此用户不再被此台msgServer接受，请重新获取msgServer地址</td>
+</tr>
+<tr>
+<td>20010</td>
+<td>未通过登录认证</td>
+</tr>
+<tr>
+<td>20011</td>
+<td>无权限</td>
+</tr>
+<tr>
+<td>21001</td>
+<td>重复登录，被踢下线</td>
+</tr>
+<tr>
+<td>21002</td>
+<td>多次重试发送消息均未得到反馈协议，主动断开</td>
+</tr>
+<tr>
+<td>21003</td>
+<td>socket write时发送错误</td>
+</tr>
+<tr>
+<td>21004</td>
+<td>协议内容超长</td>
+</tr>
+<tr>
+<td>21005</td>
+<td>EPOLL 事件错误</td>
+</tr>
+<tr>
+<td>21006</td>
+<td>EPOLL read错误</td>
+</tr>
+<tr>
+<td>21007</td>
+<td>顶层协议解析错误</td>
+</tr>
+<tr>
+<td>21008</td>
+<td>action协议解析错误</td>
+</tr>
+<tr>
+<td>21009</td>
+<td>根据scheduleServer的返回，此用户不再被此台msgServer接受，请重新获取msgServer地址</td>
+</tr>
+<tr>
+<td>21010</td>
+<td>无权限</td>
+</tr>
+<tr>
+<td>21011</td>
+<td>检查登录失败</td>
+</tr>
+<tr>
+<td>21012</td>
+<td>AEC参数获取失败</td>
+</tr>
+<tr>
+<td>21013</td>
+<td>AEC鉴权连接失败</td>
+</tr>
+<tr>
+<td>21014</td>
+<td>AEC鉴权失败</td>
+</tr>
+<tr>
+<td>21015</td>
+<td>聊天室房间已存在</td>
+</tr>
+<tr>
+<td>21016</td>
+<td>聊天室房间号同步错误</td>
+</tr>
+<tr>
+<td>21017</td>
+<td>聊天室人数超限</td>
+</tr>
+<tr>
+<td>21018</td>
+<td>聊天室链接错误</td>
+</tr>
+<tr>
+<td>21019</td>
+<td>聊天室类型解析错误</td>
+</tr>
+<tr>
+<td>22001</td>
+<td>此groupId还未同步群成员列表，服务器SDK收到此回复告诉用户之前的操作失败，并立即发送SYNC协议到groupProxy。客户端收到此回复表示群发信息发送失败，等待若干秒再重试</td>
+</tr>
+<tr>
+<td>22002</td>
+<td>此groupId的群成员正在同步中，服务器SDK才会收到，收到后不做任何处理，告诉用户之前的操作失败</td>
+</tr>
+<tr>
+<td>22003</td>
+<td>此用户不在指定的群内</td>
+</tr>
+<tr>
+<td>22004</td>
+<td>sendToMoonServer error</td>
+</tr>
+<tr>
+<td>22005</td>
+<td>验证agent身份信息的接口连接失败</td>
+</tr>
+<tr>
+<td>22006</td>
+<td>agent发送群变更信息时，agentToken或ipaddress未通过认证</td>
+</tr>
+<tr>
+<td>22007</td>
+<td>解析agent数据失败</td>
+</tr>
+<tr>
+<td>22008</td>
+<td>groupPushMoonServer处理内容过载</td>
+</tr>
+<tr>
+<td>22009</td>
+<td>加密类型错误</td>
+</tr>
+<tr>
+<td>30001</td>
+<td>所有live src服务器超载</td>
+</tr>
+<tr>
+<td>30002</td>
+<td>授权验证失败</td>
+</tr>
+<tr>
+<td>30003</td>
+<td>验证agent身份信息的接口连接失败</td>
+</tr>
+<tr>
+<td>30004</td>
+<td>获取agent guardToken失败</td>
+</tr>
+<tr>
+<td>30005</td>
+<td>获取agent guardToken数据错误</td>
+</tr>
+<tr>
+<td>30006</td>
+<td>协议解析错误</td>
+</tr>
+<tr>
+<td>30007</td>
+<td>用户名格式错误</td>
+</tr>
+<tr>
+<td>30008</td>
+<td>指定用户数超限</td>
+</tr>
+<tr>
+<td>30009</td>
+<td>未找到对应的channelId</td>
+</tr>
+<tr>
+<td>30010</td>
+<td>连麦用户数量超限</td>
+</tr>
+<tr>
+<td>30011</td>
+<td>连麦用户无权限</td>
+</tr>
+<tr>
+<td>30012</td>
+<td>申请上传时的音视频参数与第一次申请的不一致</td>
+</tr>
+<tr>
+<td>30013</td>
+<td>重复登录</td>
+</tr>
+<tr>
+<td>30014</td>
+<td>在指定的channel上未找到groupId属性</td>
+</tr>
+<tr>
+<td>30015</td>
+<td>登录服务器验证失败</td>
+</tr>
+<tr>
+<td>30016</td>
+<td>频道关闭</td>
+</tr>
+<tr>
+<td>31001</td>
+<td>所有live vdn服务器超载</td>
+</tr>
+<tr>
+<td>31002</td>
+<td>channelId格式解析错误</td>
+</tr>
+<tr>
+<td>31003</td>
+<td>内部错误，用户需要重试</td>
+</tr>
+<tr>
+<td>31004</td>
+<td>协议解析错误</td>
+</tr>
+<tr>
+<td>31005</td>
+<td>vdnServer与srcServer连接断开</td>
+</tr>
+<tr>
+<td>31006</td>
+<td>重复登录</td>
+</tr>
+<tr>
+<td>31007</td>
+<td>从liveSrc获取channel失败</td>
+</tr>
+<tr>
+<td>31008</td>
+<td>余额不足</td>
+</tr>
+<tr>
+<td>31009</td>
+<td>没有购买门票</td>
+</tr>
+<tr>
+<td>31010</td>
+<td>门票已过期</td>
+</tr>
+<tr>
+<td>31011</td>
+<td>此频道人数超限</td>
+</tr>
+<tr>
+<td>40001</td>
+<td>VOIP协议解析失败</td>
+</tr>
+<tr>
+<td>40002</td>
+<td>VOIP登录失败</td>
+</tr>
+<tr>
+<td>40003</td>
+<td>配对信息错误</td>
+</tr>
+<tr>
+<td>40004</td>
+<td>播放器解码模块初始化失败</td>
+</tr>
+<tr>
+<td>40005</td>
+<td>发起方余额不足</td>
+</tr>
+<tr>
+<td>40006</td>
+<td>接收方余额不足</td>
+</tr>
+<tr>
+<td>40007</td>
+<td>对方连接断开</td>
+</tr>
+<tr>
+<td>50001</td>
+<td>POST参数错误</td>
+</tr>
+<tr>
+<td>50002</td>
+<td>发送到moonServer错误</td>
+</tr>
+<tr>
+<td>50003</td>
+<td>scheduleProxy发送给scheduleXmlParse失败</td>
+</tr>
+<tr>
+<td>50004</td>
+<td>sendToMoonServer error</td>
+</tr>
+<tr>
+<td>50005</td>
+<td>ABC_ERRID_AUTH_FAILED</td>
+</tr>
+<tr>
+<td>60001</td>
+<td>Chatroom 调度IO失败</td>
+</tr>
+</tbody>
+</table>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2018-12-27T09:59:33.149Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+		<a href="android-10.html" class="article-footer-prev" title="10.其它配套组件"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="ios-1.html" class="article-footer-next" title="1.嵌入SDK"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#ErrorCode对照表"><span class="toc-text">ErrorCode对照表</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">Android集成</strong><a href="android-1.html" class="sidebar-link">1.嵌入SDK</a><a href="android-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="android-3.html" class="sidebar-link">3.初始化</a><a href="android-4.html" class="sidebar-link">4.一对一消息</a><a href="android-5.html" class="sidebar-link">5.群组消息</a><a href="android-6.html" class="sidebar-link">6.聊天室消息</a><a href="android-7.html" class="sidebar-link">7.一对一视频通话</a><a href="android-8.html" class="sidebar-link">8.视频会议</a><a href="android-9.html" class="sidebar-link">9.互动直播</a><a href="android-10.html" class="sidebar-link">10.其它配套组件</a><a href="android-errCode.html" class="sidebar-link current">11.ErrorCode对照表</a><strong class="sidebar-title">iOS集成</strong><a href="ios-1.html" class="sidebar-link">1.嵌入SDK</a><a href="ios-2.html" class="sidebar-link">2.初始化</a><a href="ios-3.html" class="sidebar-link">3.一对一消息</a><a href="ios-4.html" class="sidebar-link">4.群组消息</a><a href="ios-5.html" class="sidebar-link">5.聊天室消息</a><a href="ios-6.html" class="sidebar-link">6.一对一视频通话</a><a href="ios-7.html" class="sidebar-link">7.视频会议</a><a href="ios-8.html" class="sidebar-link">8.互动直播</a><strong class="sidebar-title">web端集成</strong><a href="h5-1.html" class="sidebar-link">1.嵌入SDK</a><a href="h5-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="h5-3.html" class="sidebar-link">3.初始化</a><a href="h5-4.html" class="sidebar-link">4.一对一消息</a><a href="h5-5.html" class="sidebar-link">5.群组消息</a><a href="h5-6.html" class="sidebar-link">6.聊天室消息</a><a href="h5-7.html" class="sidebar-link">7.一对一视频通话</a><a href="h5-8.html" class="sidebar-link">8.视频会议</a><a href="h5-9.html" class="sidebar-link">9.互动直播</a><strong class="sidebar-title">服务端开发</strong><a href="aec-index.html" class="sidebar-link">概述</a><a href="aec-group.html" class="sidebar-link">群事件通知</a><a href="aec-chatroom.html" class="sidebar-link">聊天室事件通知</a><a href="aec-voip.html" class="sidebar-link">单聊事件通知</a><a href="aec-live.html" class="sidebar-link">直播事件通知</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2018 <a href="https://www.starRTC.com" target="_blank">starRTC.com</a><br>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/starrtc/android-demo" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/zh-cn/download/" class="mobile-nav-link">下载</a><a href="/zh-cn/contact/" class="mobile-nav-link">联系我们</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/starrtc/android-demo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">Android集成</strong><a href="android-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="android-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="android-3.html" class="mobile-nav-link">3.初始化</a><a href="android-4.html" class="mobile-nav-link">4.一对一消息</a><a href="android-5.html" class="mobile-nav-link">5.群组消息</a><a href="android-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="android-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="android-8.html" class="mobile-nav-link">8.视频会议</a><a href="android-9.html" class="mobile-nav-link">9.互动直播</a><a href="android-10.html" class="mobile-nav-link">10.其它配套组件</a><a href="android-errCode.html" class="mobile-nav-link current">11.ErrorCode对照表</a><strong class="mobile-nav-title">iOS集成</strong><a href="ios-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="ios-2.html" class="mobile-nav-link">2.初始化</a><a href="ios-3.html" class="mobile-nav-link">3.一对一消息</a><a href="ios-4.html" class="mobile-nav-link">4.群组消息</a><a href="ios-5.html" class="mobile-nav-link">5.聊天室消息</a><a href="ios-6.html" class="mobile-nav-link">6.一对一视频通话</a><a href="ios-7.html" class="mobile-nav-link">7.视频会议</a><a href="ios-8.html" class="mobile-nav-link">8.互动直播</a><strong class="mobile-nav-title">web端集成</strong><a href="h5-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="h5-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="h5-3.html" class="mobile-nav-link">3.初始化</a><a href="h5-4.html" class="mobile-nav-link">4.一对一消息</a><a href="h5-5.html" class="mobile-nav-link">5.群组消息</a><a href="h5-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="h5-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="h5-8.html" class="mobile-nav-link">8.视频会议</a><a href="h5-9.html" class="mobile-nav-link">9.互动直播</a><strong class="mobile-nav-title">服务端开发</strong><a href="aec-index.html" class="mobile-nav-link">概述</a><a href="aec-group.html" class="mobile-nav-link">群事件通知</a><a href="aec-chatroom.html" class="mobile-nav-link">聊天室事件通知</a><a href="aec-voip.html" class="mobile-nav-link">单聊事件通知</a><a href="aec-live.html" class="mobile-nav-link">直播事件通知</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/android-errCode.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'cdea7d4e47d84f6145b77e7f68689f35',
+  indexName: 'hexo_zh-cn',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>

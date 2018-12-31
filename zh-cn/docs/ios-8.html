@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>starRTC文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-8.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://docs_new.starrtc.com/docs/zh-cn/docs/ios-8.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-8.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://www.starRTC.com/googleapis.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="starRTC文档">
+  <!-- Open Graph -->
+  <meta name="description" content="互动直播8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理[[XHClient sharedClient].liveManager addDelegate:self];/** 有人加入直播 @param uid 加入用户的ID @param liveID 直播间ID @return 用于显示发言者视频画面的view */- (UIView *)onAc">
+<meta property="og:type" content="website">
+<meta property="og:title" content="starRTC文档">
+<meta property="og:url" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-8.html">
+<meta property="og:site_name" content="starRTC文档">
+<meta property="og:description" content="互动直播8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理[[XHClient sharedClient].liveManager addDelegate:self];/** 有人加入直播 @param uid 加入用户的ID @param liveID 直播间ID @return 用于显示发言者视频画面的view */- (UIView *)onAc">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2018-12-27T09:59:33.148Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="starRTC文档">
+<meta name="twitter:description" content="互动直播8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理[[XHClient sharedClient].liveManager addDelegate:self];/** 有人加入直播 @param uid 加入用户的ID @param liveID 直播间ID @return 用于显示发言者视频画面的view */- (UIView *)onAc">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      
+      <a href="https://docs.starrtc.com/docs/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/zh-cn/download/" class="main-nav-link">下载</a><a href="/zh-cn/contact/" class="main-nav-link">联系我们</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/ios-8.html">
+        
+          <option value="en">English</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name"></h1>
+                <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/ios-8.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="互动直播" class="article-heading"><a href="#互动直播" class="headerlink" title="互动直播"></a>互动直播<a class="article-anchor" href="#互动直播" aria-hidden="true"></a></h1><h2 id="8-1-获取XHLiveManager实例，添加XHLiveManagerrDelegate代理" class="article-heading"><a href="#8-1-获取XHLiveManager实例，添加XHLiveManagerrDelegate代理" class="headerlink" title="8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理"></a>8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理<a class="article-anchor" href="#8-1-获取XHLiveManager实例，添加XHLiveManagerrDelegate代理" aria-hidden="true"></a></h2><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">[[XHClient sharedClient].liveManager addDelegate:<span class="keyword">self</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 有人加入直播</span></span><br><span class="line"><span class="comment"> @param uid 加入用户的ID</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> @return 用于显示发言者视频画面的view</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="built_in">UIView</span> *)onActorJoined:(<span class="built_in">NSString</span> *)uid live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 有人离开直播</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param uid 离开用户的ID</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onActorLeft:(<span class="built_in">NSString</span> *)uid live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 房间创建者收到 加入直播的申请</span></span><br><span class="line"><span class="comment"> @param uid 申请用户的ID</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onApplyBroadcast:(<span class="built_in">NSString</span> *)uid live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 申请上麦者收到 加入直播的审批回复</span></span><br><span class="line"><span class="comment"> @param result 结果</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onBroadcastResponsed:(XHLiveJoinResult)result live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观众收到 加入直播的邀请</span></span><br><span class="line"><span class="comment"> @param uid 邀请用户ID</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onInviteBroadcast:(<span class="built_in">NSString</span> *)uid live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 房间创建者收到 是否连麦的回复</span></span><br><span class="line"><span class="comment"> @param result 结果</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onInviteResponsed:(XHLiveJoinResult)result live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 自己连麦被强制停止</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onCommandToStopPlay:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 一些异常情况可能会引起会议出错，请在收到该回调后主动离开直播</span></span><br><span class="line"><span class="comment"> @param error 错误信息</span></span><br><span class="line"><span class="comment"> @param liveID 直播间ID</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)onLiveError:(<span class="built_in">NSError</span> *)error live:(<span class="built_in">NSString</span> *)liveID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 成员数发生变化</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param membersNumber 成员数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)liveMembersNumberUpdated:(<span class="built_in">NSInteger</span>)membersNumber</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 自己被剔</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)liveUserKicked</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 收到消息</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param message 消息</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)liveMessageReceived:(<span class="built_in">NSString</span> *)message fromID:(<span class="built_in">NSString</span> *)fromID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 收到私信消息</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param message 消息</span></span><br><span class="line"><span class="comment"> @param fromID 消息来源</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)livePrivateMessageReceived:(<span class="built_in">NSString</span> *)message fromID:(<span class="built_in">NSString</span> *)fromID</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="8-2-XHLiveManager-API-说明" class="article-heading"><a href="#8-2-XHLiveManager-API-说明" class="headerlink" title="8.2 XHLiveManager API 说明"></a>8.2 XHLiveManager API 说明<a class="article-anchor" href="#8-2-XHLiveManager-API-说明" aria-hidden="true"></a></h2><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 设置视频参数</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param config 参数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)setVideoConfig:(XHVideoConfig *)config;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 设置回调代理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param delegate 代理</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)addDelegate:(<span class="keyword">id</span>&lt;XHLiveManagerDelegate&gt;)delegate;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 创建直播</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param liveItem  直播信息</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)createLive:(XHLiveItem *)liveItem completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSString</span> *liveID, <span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 开始直播</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param liveID  直播ID</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)startLive:(<span class="built_in">NSString</span> *)liveID completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观看直播</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param liveID  直播ID</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)watchLive:(<span class="built_in">NSString</span> *)liveID completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观众申请上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  申请对象</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)applyToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 房主同意上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  同意对象</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)agreeApplyToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 房主拒绝上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  拒绝对象</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)refuseApplyToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                 completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 房主邀请上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  被邀请者</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)inviteToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                 completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观众同意上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  邀请者</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)agreeInviteToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                      completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观众拒绝上麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  邀请者</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)refuseInviteToBroadcaster:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">                       completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 停止连麦</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param toID  停止对象</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)commandToAudience:(<span class="built_in">NSString</span> *)toID</span><br><span class="line">               completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 连麦者变为观众</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)changeToAudience;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 观众变为连麦者</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)changeToBroadcaster;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 离开直播</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param liveID  直播ID</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)leaveLive:(<span class="built_in">NSString</span> *)liveID completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 返回切换后的摄像头方向</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @return 切换后的摄像头方向</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (XHCameraDirection)switchCamera;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 切换到大视频预览页面</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment">  @param view  待切换画面</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)changeToBig:(<span class="built_in">UIView</span> *)view;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 切换到小视频预览页面</span></span><br><span class="line"><span class="comment"> @param view  待切换画面</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)changeToSmall:(<span class="built_in">UIView</span> *)view;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 发送消息</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param message 消息</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)sendMessage:(<span class="built_in">NSString</span> *)message completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 发送私信消息</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param message 消息</span></span><br><span class="line"><span class="comment"> @param toID 收件人id</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)sendMessage:(<span class="built_in">NSString</span> *)message toID:(<span class="built_in">NSString</span> *)toID completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 禁言</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param member 用户id</span></span><br><span class="line"><span class="comment"> @param seconds 禁言时长，单位为秒</span></span><br><span class="line"><span class="comment"> @param liveId 会议id</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)muteMember:(<span class="built_in">NSString</span> *)member</span><br><span class="line">        muteSeconds:(<span class="built_in">NSInteger</span>)seconds</span><br><span class="line">        fromLive:(<span class="built_in">NSString</span> *)liveId</span><br><span class="line">         completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 解除禁言</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param member 用户id</span></span><br><span class="line"><span class="comment"> @param liveId 会议id</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)unMuteMember:(<span class="built_in">NSString</span> *)member</span><br><span class="line">          fromLive:(<span class="built_in">NSString</span> *)liveId</span><br><span class="line">           completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 剔除用户</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param member 用户id</span></span><br><span class="line"><span class="comment"> @param liveId 会议id</span></span><br><span class="line"><span class="comment"> @param completion 回调</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)kickMember:(<span class="built_in">NSString</span> *)member</span><br><span class="line">        fromLive:(<span class="built_in">NSString</span> *)liveId</span><br><span class="line">         completion:(<span class="keyword">void</span>(^)(<span class="built_in">NSError</span> *error))completion;</span><br></pre></td></tr></table></figure>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2018-12-27T09:59:33.148Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+		<a href="ios-7.html" class="article-footer-prev" title="7.视频会议"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="h5-1.html" class="article-footer-next" title="1.嵌入SDK"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#互动直播"><span class="toc-text">互动直播</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#8-1-获取XHLiveManager实例，添加XHLiveManagerrDelegate代理"><span class="toc-text">8.1 获取XHLiveManager实例，添加XHLiveManagerrDelegate代理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-2-XHLiveManager-API-说明"><span class="toc-text">8.2 XHLiveManager API 说明</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">Android集成</strong><a href="android-1.html" class="sidebar-link">1.嵌入SDK</a><a href="android-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="android-3.html" class="sidebar-link">3.初始化</a><a href="android-4.html" class="sidebar-link">4.一对一消息</a><a href="android-5.html" class="sidebar-link">5.群组消息</a><a href="android-6.html" class="sidebar-link">6.聊天室消息</a><a href="android-7.html" class="sidebar-link">7.一对一视频通话</a><a href="android-8.html" class="sidebar-link">8.视频会议</a><a href="android-9.html" class="sidebar-link">9.互动直播</a><a href="android-10.html" class="sidebar-link">10.其它配套组件</a><a href="android-errCode.html" class="sidebar-link">11.ErrorCode对照表</a><strong class="sidebar-title">iOS集成</strong><a href="ios-1.html" class="sidebar-link">1.嵌入SDK</a><a href="ios-2.html" class="sidebar-link">2.初始化</a><a href="ios-3.html" class="sidebar-link">3.一对一消息</a><a href="ios-4.html" class="sidebar-link">4.群组消息</a><a href="ios-5.html" class="sidebar-link">5.聊天室消息</a><a href="ios-6.html" class="sidebar-link">6.一对一视频通话</a><a href="ios-7.html" class="sidebar-link">7.视频会议</a><a href="ios-8.html" class="sidebar-link current">8.互动直播</a><strong class="sidebar-title">web端集成</strong><a href="h5-1.html" class="sidebar-link">1.嵌入SDK</a><a href="h5-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="h5-3.html" class="sidebar-link">3.初始化</a><a href="h5-4.html" class="sidebar-link">4.一对一消息</a><a href="h5-5.html" class="sidebar-link">5.群组消息</a><a href="h5-6.html" class="sidebar-link">6.聊天室消息</a><a href="h5-7.html" class="sidebar-link">7.一对一视频通话</a><a href="h5-8.html" class="sidebar-link">8.视频会议</a><a href="h5-9.html" class="sidebar-link">9.互动直播</a><strong class="sidebar-title">服务端开发</strong><a href="aec-index.html" class="sidebar-link">概述</a><a href="aec-group.html" class="sidebar-link">群事件通知</a><a href="aec-chatroom.html" class="sidebar-link">聊天室事件通知</a><a href="aec-voip.html" class="sidebar-link">单聊事件通知</a><a href="aec-live.html" class="sidebar-link">直播事件通知</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2018 <a href="https://www.starRTC.com" target="_blank">starRTC.com</a><br>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/starrtc/android-demo" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/zh-cn/download/" class="mobile-nav-link">下载</a><a href="/zh-cn/contact/" class="mobile-nav-link">联系我们</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/starrtc/android-demo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">Android集成</strong><a href="android-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="android-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="android-3.html" class="mobile-nav-link">3.初始化</a><a href="android-4.html" class="mobile-nav-link">4.一对一消息</a><a href="android-5.html" class="mobile-nav-link">5.群组消息</a><a href="android-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="android-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="android-8.html" class="mobile-nav-link">8.视频会议</a><a href="android-9.html" class="mobile-nav-link">9.互动直播</a><a href="android-10.html" class="mobile-nav-link">10.其它配套组件</a><a href="android-errCode.html" class="mobile-nav-link">11.ErrorCode对照表</a><strong class="mobile-nav-title">iOS集成</strong><a href="ios-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="ios-2.html" class="mobile-nav-link">2.初始化</a><a href="ios-3.html" class="mobile-nav-link">3.一对一消息</a><a href="ios-4.html" class="mobile-nav-link">4.群组消息</a><a href="ios-5.html" class="mobile-nav-link">5.聊天室消息</a><a href="ios-6.html" class="mobile-nav-link">6.一对一视频通话</a><a href="ios-7.html" class="mobile-nav-link">7.视频会议</a><a href="ios-8.html" class="mobile-nav-link current">8.互动直播</a><strong class="mobile-nav-title">web端集成</strong><a href="h5-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="h5-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="h5-3.html" class="mobile-nav-link">3.初始化</a><a href="h5-4.html" class="mobile-nav-link">4.一对一消息</a><a href="h5-5.html" class="mobile-nav-link">5.群组消息</a><a href="h5-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="h5-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="h5-8.html" class="mobile-nav-link">8.视频会议</a><a href="h5-9.html" class="mobile-nav-link">9.互动直播</a><strong class="mobile-nav-title">服务端开发</strong><a href="aec-index.html" class="mobile-nav-link">概述</a><a href="aec-group.html" class="mobile-nav-link">群事件通知</a><a href="aec-chatroom.html" class="mobile-nav-link">聊天室事件通知</a><a href="aec-voip.html" class="mobile-nav-link">单聊事件通知</a><a href="aec-live.html" class="mobile-nav-link">直播事件通知</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/ios-8.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'cdea7d4e47d84f6145b77e7f68689f35',
+  indexName: 'hexo_zh-cn',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>

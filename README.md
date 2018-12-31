@@ -1,2 +1,0 @@
-# starrtc.github.io
-docs

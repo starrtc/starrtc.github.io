@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>starRTC文档</title>
+  
+  <subtitle>IM 即时通讯 VOIP 一对一 直播 在线会议 音视频实时通信 回音消除</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://docs_new.starrtc.com/docs/zh-cn/"/>
+  <updated>2018-12-31T04:46:40.784Z</updated>
+  <id>https://docs_new.starrtc.com/docs/zh-cn/</id>
+  
+  <author>
+    <name>starRTC.com</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android sdk v1.2.2 Released</title>
+    <link href="https://docs_new.starrtc.com/docs/zh-cn/posts/2018/12/29/android-sdk-v1.2.2-released/"/>
+    <id>https://docs_new.starrtc.com/docs/zh-cn/posts/2018/12/29/android-sdk-v1.2.2-released/</id>
+    <published>2018-12-29T00:00:00.000Z</published>
+    <updated>2018-12-31T04:46:40.784Z</updated>
+    
+    <content type="html"><![CDATA[<p>1 优化视频传输协议<br>2 优化音频效果<br>3 增加内网直连能力<br>4 增加视频帧率码率选择<br>5 增加动态帧率码率<br>6 增加音频、视频开关（支持纯音频直播）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1 优化视频传输协议&lt;br&gt;2 优化音频效果&lt;br&gt;3 增加内网直连能力&lt;br&gt;4 增加视频帧率码率选择&lt;br&gt;5 增加动态帧率码率&lt;br&gt;6 增加音频、视频开关（支持纯音频直播）&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android sdk v1.1.8 Released</title>
+    <link href="https://docs_new.starrtc.com/docs/zh-cn/posts/2018/08/17/android-sdk-v1.1.8-released/"/>
+    <id>https://docs_new.starrtc.com/docs/zh-cn/posts/2018/08/17/android-sdk-v1.1.8-released/</id>
+    <published>2018-08-17T00:00:00.000Z</published>
+    <updated>2018-12-31T04:46:40.783Z</updated>
+    
+    <content type="html"><![CDATA[<p>1 优化视频拍摄参数，支持横屏拍摄<br>2 优化网络自适应调整视频编码参数<br>3 增加视频参数日志<br>4 整体提升码率<br>5 优化GOP<br>6 优化AEC<br>7 优化切换摄像头方法的参数</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1 优化视频拍摄参数，支持横屏拍摄&lt;br&gt;2 优化网络自适应调整视频编码参数&lt;br&gt;3 增加视频参数日志&lt;br&gt;4 整体提升码率&lt;br&gt;5 优化GOP&lt;br&gt;6 优化AEC&lt;br&gt;7 优化切换摄像头方法的参数&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

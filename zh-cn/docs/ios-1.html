@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>starRTC文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-1.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://docs_new.starrtc.com/docs/zh-cn/docs/ios-1.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-1.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://www.starRTC.com/googleapis.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="starRTC文档">
+  <!-- Open Graph -->
+  <meta name="description" content="嵌入SDK1.1 下载SDK下载SDK,其中包括libstarRTC.aXHChatManager.hXHChatroomManager.hXHClient.hXHConstants.hXHGroupManager.hXHLiveManager.hXHLoginManager.hXHVideoConfig.hXHVoipManager.hXHMeetingManager.h  1.2 导入SDK文">
+<meta property="og:type" content="website">
+<meta property="og:title" content="starRTC文档">
+<meta property="og:url" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-1.html">
+<meta property="og:site_name" content="starRTC文档">
+<meta property="og:description" content="嵌入SDK1.1 下载SDK下载SDK,其中包括libstarRTC.aXHChatManager.hXHChatroomManager.hXHClient.hXHConstants.hXHGroupManager.hXHLiveManager.hXHLoginManager.hXHVideoConfig.hXHVoipManager.hXHMeetingManager.h  1.2 导入SDK文">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-link.png">
+<meta property="og:updated_time" content="2018-12-27T09:59:33.149Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="starRTC文档">
+<meta name="twitter:description" content="嵌入SDK1.1 下载SDK下载SDK,其中包括libstarRTC.aXHChatManager.hXHChatroomManager.hXHClient.hXHConstants.hXHGroupManager.hXHLiveManager.hXHLoginManager.hXHVideoConfig.hXHVoipManager.hXHMeetingManager.h  1.2 导入SDK文">
+<meta name="twitter:image" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/ios-link.png">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      
+      <a href="https://docs.starrtc.com/docs/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/zh-cn/download/" class="main-nav-link">下载</a><a href="/zh-cn/contact/" class="main-nav-link">联系我们</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/ios-1.html">
+        
+          <option value="en">English</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name"></h1>
+                <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/ios-1.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="嵌入SDK" class="article-heading"><a href="#嵌入SDK" class="headerlink" title="嵌入SDK"></a>嵌入SDK<a class="article-anchor" href="#嵌入SDK" aria-hidden="true"></a></h1><h2 id="1-1-下载SDK" class="article-heading"><a href="#1-1-下载SDK" class="headerlink" title="1.1 下载SDK"></a>1.1 下载SDK<a class="article-anchor" href="#1-1-下载SDK" aria-hidden="true"></a></h2><p><a href="https://github.com/starrtc/ios-sdk" target="_blank" rel="noopener">下载SDK</a>,其中包括<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">libstarRTC.a</span><br><span class="line">XHChatManager.h</span><br><span class="line">XHChatroomManager.h</span><br><span class="line">XHClient.h</span><br><span class="line">XHConstants.h</span><br><span class="line">XHGroupManager.h</span><br><span class="line">XHLiveManager.h</span><br><span class="line">XHLoginManager.h</span><br><span class="line">XHVideoConfig.h</span><br><span class="line">XHVoipManager.h</span><br><span class="line">XHMeetingManager.h</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h2 id="1-2-导入SDK文件" class="article-heading"><a href="#1-2-导入SDK文件" class="headerlink" title="1.2 导入SDK文件"></a>1.2 导入SDK文件<a class="article-anchor" href="#1-2-导入SDK文件" aria-hidden="true"></a></h2><p>创建一个新工程，将下载到的库文件复制到工程目录下。</p>
+<p>然后在“项目导航”界面中，选中项目，选择对应的Target，选择“Build Phases”选项，展开“Link Binaries With Libraries”，<br>点击“＋”按钮，选择你下载的库，点击“Add”按钮添加。</p>
+<p>依赖库：</p>
+<p><img src="ios-link.png" alt="依赖库"></p>
+<p>在使用im的地方导入以下头文件即可：</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">#import "XHClient.h"</span><br></pre></td></tr></table></figure>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2018-12-27T09:59:33.149Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+		<a href="android-errCode.html" class="article-footer-prev" title="11.ErrorCode对照表"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="ios-2.html" class="article-footer-next" title="2.初始化"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#嵌入SDK"><span class="toc-text">嵌入SDK</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-下载SDK"><span class="toc-text">1.1 下载SDK</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-导入SDK文件"><span class="toc-text">1.2 导入SDK文件</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">Android集成</strong><a href="android-1.html" class="sidebar-link">1.嵌入SDK</a><a href="android-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="android-3.html" class="sidebar-link">3.初始化</a><a href="android-4.html" class="sidebar-link">4.一对一消息</a><a href="android-5.html" class="sidebar-link">5.群组消息</a><a href="android-6.html" class="sidebar-link">6.聊天室消息</a><a href="android-7.html" class="sidebar-link">7.一对一视频通话</a><a href="android-8.html" class="sidebar-link">8.视频会议</a><a href="android-9.html" class="sidebar-link">9.互动直播</a><a href="android-10.html" class="sidebar-link">10.其它配套组件</a><a href="android-errCode.html" class="sidebar-link">11.ErrorCode对照表</a><strong class="sidebar-title">iOS集成</strong><a href="ios-1.html" class="sidebar-link current">1.嵌入SDK</a><a href="ios-2.html" class="sidebar-link">2.初始化</a><a href="ios-3.html" class="sidebar-link">3.一对一消息</a><a href="ios-4.html" class="sidebar-link">4.群组消息</a><a href="ios-5.html" class="sidebar-link">5.聊天室消息</a><a href="ios-6.html" class="sidebar-link">6.一对一视频通话</a><a href="ios-7.html" class="sidebar-link">7.视频会议</a><a href="ios-8.html" class="sidebar-link">8.互动直播</a><strong class="sidebar-title">web端集成</strong><a href="h5-1.html" class="sidebar-link">1.嵌入SDK</a><a href="h5-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="h5-3.html" class="sidebar-link">3.初始化</a><a href="h5-4.html" class="sidebar-link">4.一对一消息</a><a href="h5-5.html" class="sidebar-link">5.群组消息</a><a href="h5-6.html" class="sidebar-link">6.聊天室消息</a><a href="h5-7.html" class="sidebar-link">7.一对一视频通话</a><a href="h5-8.html" class="sidebar-link">8.视频会议</a><a href="h5-9.html" class="sidebar-link">9.互动直播</a><strong class="sidebar-title">服务端开发</strong><a href="aec-index.html" class="sidebar-link">概述</a><a href="aec-group.html" class="sidebar-link">群事件通知</a><a href="aec-chatroom.html" class="sidebar-link">聊天室事件通知</a><a href="aec-voip.html" class="sidebar-link">单聊事件通知</a><a href="aec-live.html" class="sidebar-link">直播事件通知</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2018 <a href="https://www.starRTC.com" target="_blank">starRTC.com</a><br>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/starrtc/android-demo" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/zh-cn/download/" class="mobile-nav-link">下载</a><a href="/zh-cn/contact/" class="mobile-nav-link">联系我们</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/starrtc/android-demo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">Android集成</strong><a href="android-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="android-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="android-3.html" class="mobile-nav-link">3.初始化</a><a href="android-4.html" class="mobile-nav-link">4.一对一消息</a><a href="android-5.html" class="mobile-nav-link">5.群组消息</a><a href="android-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="android-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="android-8.html" class="mobile-nav-link">8.视频会议</a><a href="android-9.html" class="mobile-nav-link">9.互动直播</a><a href="android-10.html" class="mobile-nav-link">10.其它配套组件</a><a href="android-errCode.html" class="mobile-nav-link">11.ErrorCode对照表</a><strong class="mobile-nav-title">iOS集成</strong><a href="ios-1.html" class="mobile-nav-link current">1.嵌入SDK</a><a href="ios-2.html" class="mobile-nav-link">2.初始化</a><a href="ios-3.html" class="mobile-nav-link">3.一对一消息</a><a href="ios-4.html" class="mobile-nav-link">4.群组消息</a><a href="ios-5.html" class="mobile-nav-link">5.聊天室消息</a><a href="ios-6.html" class="mobile-nav-link">6.一对一视频通话</a><a href="ios-7.html" class="mobile-nav-link">7.视频会议</a><a href="ios-8.html" class="mobile-nav-link">8.互动直播</a><strong class="mobile-nav-title">web端集成</strong><a href="h5-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="h5-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="h5-3.html" class="mobile-nav-link">3.初始化</a><a href="h5-4.html" class="mobile-nav-link">4.一对一消息</a><a href="h5-5.html" class="mobile-nav-link">5.群组消息</a><a href="h5-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="h5-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="h5-8.html" class="mobile-nav-link">8.视频会议</a><a href="h5-9.html" class="mobile-nav-link">9.互动直播</a><strong class="mobile-nav-title">服务端开发</strong><a href="aec-index.html" class="mobile-nav-link">概述</a><a href="aec-group.html" class="mobile-nav-link">群事件通知</a><a href="aec-chatroom.html" class="mobile-nav-link">聊天室事件通知</a><a href="aec-voip.html" class="mobile-nav-link">单聊事件通知</a><a href="aec-live.html" class="mobile-nav-link">直播事件通知</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/ios-1.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'cdea7d4e47d84f6145b77e7f68689f35',
+  indexName: 'hexo_zh-cn',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>

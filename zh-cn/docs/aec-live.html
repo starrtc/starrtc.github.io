@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>starRTC文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/aec-live.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://docs_new.starrtc.com/docs/zh-cn/docs/aec-live.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/aec-live.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://www.starRTC.com/googleapis.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="starRTC文档">
+  <!-- Open Graph -->
+  <meta name="description" content="直播事件通知1 创建GLOBAL_PUBLIC直播流AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&amp;#123;&quot;action&quot; : &quot;AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;channelId&quot; : &quot;xxx&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;">
+<meta property="og:type" content="website">
+<meta property="og:title" content="starRTC文档">
+<meta property="og:url" content="https://docs_new.starrtc.com/docs/zh-cn/zh-cn/docs/aec-live.html">
+<meta property="og:site_name" content="starRTC文档">
+<meta property="og:description" content="直播事件通知1 创建GLOBAL_PUBLIC直播流AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&amp;#123;&quot;action&quot; : &quot;AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;channelId&quot; : &quot;xxx&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2018-12-27T09:59:33.149Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="starRTC文档">
+<meta name="twitter:description" content="直播事件通知1 创建GLOBAL_PUBLIC直播流AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&amp;#123;&quot;action&quot; : &quot;AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;channelId&quot; : &quot;xxx&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      
+      <a href="https://docs.starrtc.com/docs/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/zh-cn/download/" class="main-nav-link">下载</a><a href="/zh-cn/contact/" class="main-nav-link">联系我们</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/aec-live.html">
+        
+          <option value="en">English</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name"></h1>
+                <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/aec-live.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="直播事件通知" class="article-heading"><a href="#直播事件通知" class="headerlink" title="直播事件通知"></a>直播事件通知<a class="article-anchor" href="#直播事件通知" aria-hidden="true"></a></h1><h2 id="1-创建GLOBAL-PUBLIC直播流" class="article-heading"><a href="#1-创建GLOBAL-PUBLIC直播流" class="headerlink" title="1 创建GLOBAL_PUBLIC直播流"></a>1 创建GLOBAL_PUBLIC直播流<a class="article-anchor" href="#1-创建GLOBAL-PUBLIC直播流" aria-hidden="true"></a></h2><p>AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>,<span class="string">"conCurrentNumber"</span> : <span class="string">"200"</span>,<span class="string">"extra(可选)"</span> : <span class="string">"xxxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>创建<font color="red">全局公开</font>的视频房间，上传者和连麦者需要登录，所有观众都不需要登录或其他权限即可观看此房间的直播流。<br>userId： 申请创建视频房间的用户ID。<br>roomId： 此视频房间对应的聊天室ID，如果视频房间无聊天功能，则没有roomId参数。<br>channelId： 该视频房间ID号。<br>conCurrentNumber： 此房间的人数上限。<br>extra： 您的产品通过客户端SDK发送过来的自定义数据，您可要根据自己的业务逻辑来决定其内容。</p>
+<h2 id="2-创建LOGIN-PUBLIC直播流" class="article-heading"><a href="#2-创建LOGIN-PUBLIC直播流" class="headerlink" title="2 创建LOGIN_PUBLIC直播流"></a>2 创建LOGIN_PUBLIC直播流<a class="article-anchor" href="#2-创建LOGIN-PUBLIC直播流" aria-hidden="true"></a></h2><p>AEC_LIVE_CREATE_CHANNEL_LOGIN_PUBLIC<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_CREATE_CHANNEL_LOGIN_PUBLIC"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>,<span class="string">"conCurrentNumber"</span> : <span class="string">"200"</span>,<span class="string">"extra(可选)"</span> : <span class="string">"xxxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>创建<font color="red">只对登录用户公开</font>的视频房间，上传者、连麦者和所有观众都需要登录才可参与或观看此房间的直播流。<br>userId： 申请创建视频房间的用户ID。<br>roomId： 此视频房间对应的聊天室ID，如果视频房间无聊天功能，则没有roomId参数。<br>channelId： 该视频房间ID号。<br>conCurrentNumber： 此房间的人数上限。<br>extra： 您的产品通过客户端SDK发送过来的自定义数据，您可要根据自己的业务逻辑来决定其内容。</p>
+<h2 id="3-创建GROUP-PUBLIC直播流" class="article-heading"><a href="#3-创建GROUP-PUBLIC直播流" class="headerlink" title="3 创建GROUP_PUBLIC直播流"></a>3 创建GROUP_PUBLIC直播流<a class="article-anchor" href="#3-创建GROUP-PUBLIC直播流" aria-hidden="true"></a></h2><p>AEC_LIVE_CREATE_CHANNEL_GROUP_PUBLIC<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_CREATE_CHANNEL_GROUP_PUBLIC"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"groupId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>,<span class="string">"extra(可选)"</span> : <span class="string">"xxxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>创建<font color="red">仅在群组内能观看</font>的视频房间，上传者、连麦者和所有观众都需要在这个群组内才可参与或观看此房间的直播流。<br>userId： 申请创建视频房间的用户ID。<br>groupId： 这个视频直播对应的群组ID。<br>channelId： 该视频房间ID号。<br>extra： 您的产品通过客户端SDK发送过来的自定义数据，您可要根据自己的业务逻辑来决定其内容。</p>
+<h2 id="4-申请上传" class="article-heading"><a href="#4-申请上传" class="headerlink" title="4 申请上传"></a>4 申请上传<a class="article-anchor" href="#4-申请上传" aria-hidden="true"></a></h2><p>AEC_LIVE_APPLY_UPLOAD_CHANNEL<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_APPLY_UPLOAD_CHANNEL"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x","data":&#123;"conCurrentNumber":"xxx","groupId(可选)":"xxxx"&#125;&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>申请upload音视频流，可用于视频会议、互动直播、连麦等场景的用户上传。<br>userId: 申请上传的用户ID。<br>channelId： 需要上传的视频房间ID。<br>返回data字段的json中，conCurrentNumber表示该视频房间的人数上限，如果该channelId类型为群直播（AEC_LIVE_CREATE_CHANNEL_GROUP_PUBLIC），则还需要返回其对应的groupId。</p>
+<h2 id="5-设置上传者" class="article-heading"><a href="#5-设置上传者" class="headerlink" title="5 设置上传者"></a>5 设置上传者<a class="article-anchor" href="#5-设置上传者" aria-hidden="true"></a></h2><p>AEC_LIVE_SET_CHANNEL_UPLOADER<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_SET_CHANNEL_UPLOADER"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>房主申请设置某用户的上传权限，如果是全局公开（AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC）类型的房间，则用户只需要登录就能申请上传，不需要房主指定权限，如果是其他类型的房间，则需要经过房主主动指定用户为上传者，然后上传者才能申请上传。<br>userId: 需要设置上传权限的用户ID。<br>channelId： 对应的视视频房间ID。</p>
+<h2 id="6-取消上传权限" class="article-heading"><a href="#6-取消上传权限" class="headerlink" title="6 取消上传权限"></a>6 取消上传权限<a class="article-anchor" href="#6-取消上传权限" aria-hidden="true"></a></h2><p>AEC_LIVE_UNSET_CHANNEL_UPLOADER<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_UNSET_CHANNEL_UPLOADER"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>房主申请取消某用户的上传权限。<br>userId: 需要取消上传权限的用户ID。<br>channelId： 对应的视频房间ID。</p>
+<h2 id="7-上传者连接中断" class="article-heading"><a href="#7-上传者连接中断" class="headerlink" title="7 上传者连接中断"></a>7 上传者连接中断<a class="article-anchor" href="#7-上传者连接中断" aria-hidden="true"></a></h2><p>AEC_LIVE_UPLOADER_DISCONNECT<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_UPLOADER_DISCONNECT"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>视频上传者连接中断，可返回任意值。<br>userId: 断开连接的用户ID。<br>channelId： 对应的视频房间ID。</p>
+<h2 id="8-上传者正在上传中" class="article-heading"><a href="#8-上传者正在上传中" class="headerlink" title="8 上传者正在上传中"></a>8 上传者正在上传中<a class="article-anchor" href="#8-上传者正在上传中" aria-hidden="true"></a></h2><p>AEC_LIVE_UPLOADER_UPLOADING<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_UPLOADER_UPLOADING"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>视频上传者正在上传中，可根据业务逻辑决定返回值，例如计费系统余额为零，可以通过此方法终止用户的上传。<br>userId: 正在上传的用户ID。<br>channelId： 对应的视频房间ID。</p>
+<h2 id="9-关闭直播流" class="article-heading"><a href="#9-关闭直播流" class="headerlink" title="9 关闭直播流"></a>9 关闭直播流<a class="article-anchor" href="#9-关闭直播流" aria-hidden="true"></a></h2><p>AEC_LIVE_CLOSE_CHANNEL<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_CLOSE_CHANNEL"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>用户申请关闭直播流。<br>userId: 关闭直播流的用户ID。<br>channelId： 对应的视频房间ID。</p>
+<h2 id="10-删除直播流" class="article-heading"><a href="#10-删除直播流" class="headerlink" title="10 删除直播流"></a>10 删除直播流<a class="article-anchor" href="#10-删除直播流" aria-hidden="true"></a></h2><p>AEC_LIVE_DELETE_CHANNEL<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_LIVE_DELETE_CHANNEL"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>用户申请删除直播流。<br>userId: 删除直播流的用户ID。<br>channelId： 对应的视频房间ID。</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2018-12-27T09:59:33.149Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+		<a href="aec-voip.html" class="article-footer-prev" title="单聊事件通知"><i class="fa fa-chevron-left"></i><span>上一页</span></a>
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#直播事件通知"><span class="toc-text">直播事件通知</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-创建GLOBAL-PUBLIC直播流"><span class="toc-text">1 创建GLOBAL_PUBLIC直播流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-创建LOGIN-PUBLIC直播流"><span class="toc-text">2 创建LOGIN_PUBLIC直播流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-创建GROUP-PUBLIC直播流"><span class="toc-text">3 创建GROUP_PUBLIC直播流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-申请上传"><span class="toc-text">4 申请上传</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-设置上传者"><span class="toc-text">5 设置上传者</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-取消上传权限"><span class="toc-text">6 取消上传权限</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-上传者连接中断"><span class="toc-text">7 上传者连接中断</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-上传者正在上传中"><span class="toc-text">8 上传者正在上传中</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-关闭直播流"><span class="toc-text">9 关闭直播流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-删除直播流"><span class="toc-text">10 删除直播流</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">Android集成</strong><a href="android-1.html" class="sidebar-link">1.嵌入SDK</a><a href="android-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="android-3.html" class="sidebar-link">3.初始化</a><a href="android-4.html" class="sidebar-link">4.一对一消息</a><a href="android-5.html" class="sidebar-link">5.群组消息</a><a href="android-6.html" class="sidebar-link">6.聊天室消息</a><a href="android-7.html" class="sidebar-link">7.一对一视频通话</a><a href="android-8.html" class="sidebar-link">8.视频会议</a><a href="android-9.html" class="sidebar-link">9.互动直播</a><a href="android-10.html" class="sidebar-link">10.其它配套组件</a><a href="android-errCode.html" class="sidebar-link">11.ErrorCode对照表</a><strong class="sidebar-title">iOS集成</strong><a href="ios-1.html" class="sidebar-link">1.嵌入SDK</a><a href="ios-2.html" class="sidebar-link">2.初始化</a><a href="ios-3.html" class="sidebar-link">3.一对一消息</a><a href="ios-4.html" class="sidebar-link">4.群组消息</a><a href="ios-5.html" class="sidebar-link">5.聊天室消息</a><a href="ios-6.html" class="sidebar-link">6.一对一视频通话</a><a href="ios-7.html" class="sidebar-link">7.视频会议</a><a href="ios-8.html" class="sidebar-link">8.互动直播</a><strong class="sidebar-title">web端集成</strong><a href="h5-1.html" class="sidebar-link">1.嵌入SDK</a><a href="h5-2.html" class="sidebar-link">2.SDK的基本说明</a><a href="h5-3.html" class="sidebar-link">3.初始化</a><a href="h5-4.html" class="sidebar-link">4.一对一消息</a><a href="h5-5.html" class="sidebar-link">5.群组消息</a><a href="h5-6.html" class="sidebar-link">6.聊天室消息</a><a href="h5-7.html" class="sidebar-link">7.一对一视频通话</a><a href="h5-8.html" class="sidebar-link">8.视频会议</a><a href="h5-9.html" class="sidebar-link">9.互动直播</a><strong class="sidebar-title">服务端开发</strong><a href="aec-index.html" class="sidebar-link">概述</a><a href="aec-group.html" class="sidebar-link">群事件通知</a><a href="aec-chatroom.html" class="sidebar-link">聊天室事件通知</a><a href="aec-voip.html" class="sidebar-link">单聊事件通知</a><a href="aec-live.html" class="sidebar-link current">直播事件通知</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2018 <a href="https://www.starRTC.com" target="_blank">starRTC.com</a><br>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/starrtc/android-demo" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="https://www.starRTC.com" class="main-nav-link">官网</a><a href="http://blog.starRTC.com" class="main-nav-link">博客</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">论坛</a><a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/zh-cn/download/" class="mobile-nav-link">下载</a><a href="/zh-cn/contact/" class="mobile-nav-link">联系我们</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/starrtc/android-demo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">Android集成</strong><a href="android-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="android-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="android-3.html" class="mobile-nav-link">3.初始化</a><a href="android-4.html" class="mobile-nav-link">4.一对一消息</a><a href="android-5.html" class="mobile-nav-link">5.群组消息</a><a href="android-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="android-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="android-8.html" class="mobile-nav-link">8.视频会议</a><a href="android-9.html" class="mobile-nav-link">9.互动直播</a><a href="android-10.html" class="mobile-nav-link">10.其它配套组件</a><a href="android-errCode.html" class="mobile-nav-link">11.ErrorCode对照表</a><strong class="mobile-nav-title">iOS集成</strong><a href="ios-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="ios-2.html" class="mobile-nav-link">2.初始化</a><a href="ios-3.html" class="mobile-nav-link">3.一对一消息</a><a href="ios-4.html" class="mobile-nav-link">4.群组消息</a><a href="ios-5.html" class="mobile-nav-link">5.聊天室消息</a><a href="ios-6.html" class="mobile-nav-link">6.一对一视频通话</a><a href="ios-7.html" class="mobile-nav-link">7.视频会议</a><a href="ios-8.html" class="mobile-nav-link">8.互动直播</a><strong class="mobile-nav-title">web端集成</strong><a href="h5-1.html" class="mobile-nav-link">1.嵌入SDK</a><a href="h5-2.html" class="mobile-nav-link">2.SDK的基本说明</a><a href="h5-3.html" class="mobile-nav-link">3.初始化</a><a href="h5-4.html" class="mobile-nav-link">4.一对一消息</a><a href="h5-5.html" class="mobile-nav-link">5.群组消息</a><a href="h5-6.html" class="mobile-nav-link">6.聊天室消息</a><a href="h5-7.html" class="mobile-nav-link">7.一对一视频通话</a><a href="h5-8.html" class="mobile-nav-link">8.视频会议</a><a href="h5-9.html" class="mobile-nav-link">9.互动直播</a><strong class="mobile-nav-title">服务端开发</strong><a href="aec-index.html" class="mobile-nav-link">概述</a><a href="aec-group.html" class="mobile-nav-link">群事件通知</a><a href="aec-chatroom.html" class="mobile-nav-link">聊天室事件通知</a><a href="aec-voip.html" class="mobile-nav-link">单聊事件通知</a><a href="aec-live.html" class="mobile-nav-link current">直播事件通知</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/aec-live.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'cdea7d4e47d84f6145b77e7f68689f35',
+  indexName: 'hexo_zh-cn',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>
