@@ -5,9 +5,9 @@
   <subtitle>IM 即时通讯 VOIP 一对一 直播 在线会议 音视频实时通信 回音消除</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://docs.starrtc.com/zh-cn/"/>
+  <link href="http://docs.starrtc.com/"/>
   <updated>2018-12-31T04:46:40.784Z</updated>
-  <id>http://docs.starrtc.com/zh-cn/</id>
+  <id>http://docs.starrtc.com/</id>
   
   <author>
     <name>starRTC.com</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Android sdk v1.2.2 Released</title>
-    <link href="http://docs.starrtc.com/zh-cn/posts/2018/12/29/android-sdk-v1.2.2-released/"/>
-    <id>http://docs.starrtc.com/zh-cn/posts/2018/12/29/android-sdk-v1.2.2-released/</id>
+    <link href="http://docs.starrtc.com/posts/2018/12/29/android-sdk-v1.2.2-released/"/>
+    <id>http://docs.starrtc.com/posts/2018/12/29/android-sdk-v1.2.2-released/</id>
     <published>2018-12-29T00:00:00.000Z</published>
     <updated>2018-12-31T04:46:40.784Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Android sdk v1.1.8 Released</title>
-    <link href="http://docs.starrtc.com/zh-cn/posts/2018/08/17/android-sdk-v1.1.8-released/"/>
-    <id>http://docs.starrtc.com/zh-cn/posts/2018/08/17/android-sdk-v1.1.8-released/</id>
+    <link href="http://docs.starrtc.com/posts/2018/08/17/android-sdk-v1.1.8-released/"/>
+    <id>http://docs.starrtc.com/posts/2018/08/17/android-sdk-v1.1.8-released/</id>
     <published>2018-08-17T00:00:00.000Z</published>
     <updated>2018-12-31T04:46:40.783Z</updated>
     
