@@ -41,17 +41,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="starRTC文档">
   <!-- Open Graph -->
-  <meta name="description" content="用户事件中心(AEC)1 AEC事件通知星盒服务器会向您服务器发送http GET请求来实现数据的交换，您的服务器收到星盒服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC数据格式假设您在星盒官网填的AEC地址为： https://www.yoursite.com/eventCenter.php那么星盒服务器将会发送data和sign两个参数到这个url： https://www.y">
+  <meta name="description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送http get请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设您">
 <meta property="og:type" content="website">
 <meta property="og:title" content="starRTC文档">
 <meta property="og:url" content="http://docs.starrtc.com/en/docs/aec-index.html">
 <meta property="og:site_name" content="starRTC文档">
-<meta property="og:description" content="用户事件中心(AEC)1 AEC事件通知星盒服务器会向您服务器发送http GET请求来实现数据的交换，您的服务器收到星盒服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC数据格式假设您在星盒官网填的AEC地址为： https://www.yoursite.com/eventCenter.php那么星盒服务器将会发送data和sign两个参数到这个url： https://www.y">
+<meta property="og:description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送http get请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设您">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-12-29T07:14:34.630Z">
+<meta property="og:updated_time" content="2019-01-04T08:25:06.629Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
-<meta name="twitter:description" content="用户事件中心(AEC)1 AEC事件通知星盒服务器会向您服务器发送http GET请求来实现数据的交换，您的服务器收到星盒服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC数据格式假设您在星盒官网填的AEC地址为： https://www.yoursite.com/eventCenter.php那么星盒服务器将会发送data和sign两个参数到这个url： https://www.y">
+<meta name="twitter:description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送http get请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设您">
 <meta name="twitter:site" content="hexojs">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
@@ -100,24 +100,32 @@
                 <a href="https://github.com/starRTC/docs/edit/master/en/docs/aec-index.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h1 id="用户事件中心-AEC" class="article-heading"><a href="#用户事件中心-AEC" class="headerlink" title="用户事件中心(AEC)"></a>用户事件中心(AEC)<a class="article-anchor" href="#用户事件中心-AEC" aria-hidden="true"></a></h1><h2 id="1-AEC事件通知" class="article-heading"><a href="#1-AEC事件通知" class="headerlink" title="1 AEC事件通知"></a>1 AEC事件通知<a class="article-anchor" href="#1-AEC事件通知" aria-hidden="true"></a></h2><p>星盒服务器会向您服务器发送http <font color="red">GET</font>请求来实现数据的交换，您的服务器收到星盒服务器的事件通知后，需要根据相应的业务逻辑做出应答。</p>
-<h2 id="2-AEC数据格式" class="article-heading"><a href="#2-AEC数据格式" class="headerlink" title="2 AEC数据格式"></a>2 AEC数据格式<a class="article-anchor" href="#2-AEC数据格式" aria-hidden="true"></a></h2><p>假设您在星盒官网填的AEC地址为： <a href="https://www.yoursite.com/eventCenter.php" target="_blank" rel="noopener">https://www.yoursite.com/eventCenter.php</a><br>那么星盒服务器将会发送data和sign两个参数到这个url：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">https:<span class="comment">//www.yoursite.com/eventCenter.php?data=jsonStr&amp;sign=BnBJeh8Rbl</span></span><br></pre></td></tr></table></figure>
-<p>其中，data参数是您处理业务逻辑所需要的信息，是一个json字符串；sign参数是data数据的指纹，防止数据被篡改，生成指纹的方法是：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">base64(hmac_sha1(data,guardToken)); <span class="comment">//对data数据计算签名，guardToken作为hmac_sha1算法的key值</span></span><br></pre></td></tr></table></figure></p>
-<p>您通过同样的方法对data进行指纹计算后，对比sign值，如果一致，则进入后续的业务逻辑处理环节。<br>处理完毕后，您需要返回如下特定格式的消息(json字符串)给星盒服务器：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//status: 	1表示成功，0表示失败</span></span><br><span class="line"><span class="comment">//data:		根据不同action的要求来返回</span></span><br><span class="line"> &#123;<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:<span class="string">"xxxxx"</span>&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="3-接入验证" class="article-heading"><a href="#3-接入验证" class="headerlink" title="3 接入验证"></a>3 接入验证<a class="article-anchor" href="#3-接入验证" aria-hidden="true"></a></h2><p>登录官网，填写aec url（填写之前请确保您实现了下面的接入验证），用于接收星盒服务器的事件通知。</p>
-<p>开发者提交信息后，星盒服务器会发送GET请求到填写的URL上，</p>
-<p>参数为：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">https:<span class="comment">//www.yoursite.com/eventCenter.php?data=&#123;"action":"AEC_ACCESS_VALIDATION","echostr":"xxx", "timestamp":"xxx","nonce":"xxx"&#125;&amp;sign=BnBJRblAogq3J0A2cO5zTucs</span></span><br></pre></td></tr></table></figure></p>
-<p>开发者确认签名sign无误后，需要在data字段中原样返回echostr参数的内容，则接入生效，否则接入失败。</p>
+                <h1 id="用户事件中心-AEC" class="article-heading"><a href="#用户事件中心-AEC" class="headerlink" title="用户事件中心(AEC)"></a>用户事件中心(AEC)<a class="article-anchor" href="#用户事件中心-AEC" aria-hidden="true"></a></h1><p>AEC=agent eventCenter</p>
+<h2 id="1-AEC事件通知" class="article-heading"><a href="#1-AEC事件通知" class="headerlink" title="1 AEC事件通知"></a>1 AEC事件通知<a class="article-anchor" href="#1-AEC事件通知" aria-hidden="true"></a></h2><p>您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。<br>starRTC服务器会向您的这个AEC URL发送http <font color="red">get</font>请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。</p>
+<h2 id="2-AEC处理逻辑" class="article-heading"><a href="#2-AEC处理逻辑" class="headerlink" title="2 AEC处理逻辑"></a>2 AEC处理逻辑<a class="article-anchor" href="#2-AEC处理逻辑" aria-hidden="true"></a></h2><p>假设您在starRTC后台填的AEC URL为： <a href="https://www.yoursite.com/eventCenter.php" target="_blank" rel="noopener">https://www.yoursite.com/eventCenter.php</a><br>那么starRTC服务器在事件发生时将会发送data和sign两个参数到您的这个url：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">https:<span class="comment">//www.yoursite.com/eventCenter.php?data=jsonStr&amp;sign=xxx</span></span><br></pre></td></tr></table></figure>
+<p>其中，<br>data参数是您处理业务逻辑所需要的信息，是一个json字符串；<br>sign参数是data数据的签名，防止数据被篡改，生成签名的方法是：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">base64(hmac_sha1(data, guardToken)); <span class="comment">//对data数据计算签名，guardToken作为hmac_sha1算法的key值</span></span><br></pre></td></tr></table></figure></p>
+<p>您通过同样的方法对data进行签名计算后，和sign值进行对比，如果一致，则进入后续的业务逻辑处理环节。<br>处理完毕后，您需要返回如下特定格式的json字符串给starRTC服务器：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//status: 	1表示成功，0表示失败</span></span><br><span class="line"><span class="comment">//data:		根据不同事件的要求返回</span></span><br><span class="line"> &#123;<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:<span class="string">"xxxxx"</span>&#125;</span><br></pre></td></tr></table></figure></p>
+<p>AEC URL示例代码如下：</p>
+<p><a href="https://github.com/starrtc/server-sdk-php" target="_blank" rel="noopener">PHP</a></p>
+<p><a href="https://github.com/starrtc/server-sdk-python" target="_blank" rel="noopener">Python</a></p>
+<p><a href="https://github.com/starrtc/server-sdk-java" target="_blank" rel="noopener">Java</a></p>
+<p><a href="https://github.com/starrtc/server-sdk-node.js" target="_blank" rel="noopener">Node.js</a></p>
+<p><a href="https://github.com/starrtc/server-sdk-go" target="_blank" rel="noopener">Go</a></p>
+<p><a href="https://github.com/starrtc/server-sdk-.net" target="_blank" rel="noopener">.Net</a></p>
+<h2 id="3-接入验证" class="article-heading"><a href="#3-接入验证" class="headerlink" title="3 接入验证"></a>3 接入验证<a class="article-anchor" href="#3-接入验证" aria-hidden="true"></a></h2><p>登录starRTC后台，填写AEC URL（填写之前请确保您实现了下面的接入验证逻辑）。</p>
+<p>开发者提交AEC URL后，starRTC服务器会发送GET请求到您填写的URL上，</p>
+<p>参数为：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">https:<span class="comment">//www.yoursite.com/eventCenter.php?data=&#123;"action":"AEC_ACCESS_VALIDATION","echostr":"xxx", "timestamp":"xxx","nonce":"xxx"&#125;&amp;sign=xxx</span></span><br></pre></td></tr></table></figure></p>
+<p>开发者根据上面的AEC处理逻辑确认签名sign无误后，需要在返回的data字段中原样返回echostr参数的值，则接入生效，否则接入失败。</p>
 <p>具体为：</p>
 <p>1，接收data和sign参数，其中data为json格式；</p>
-<p>2，根据上面生成指纹的方法生成指纹，并与接收的sign对比，判断是否一致，如果一致，继续后续处理；</p>
-<p>3，判断action的类型，如果action为AEC_ACCESS_VALIDATION，表示为接入验证，需要从data里面解析出echostr，然后通过上面要求的特定格式返回，如：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"status"</span>:<span class="number">1</span>,<span class="string">"data"</span>:<span class="string">"echostr"</span>&#125;</span><br></pre></td></tr></table></figure></p>
-<p>4，响应其它action,如创建群的action为 AEC_GROUP_CREATE， 删除群的action为AEC_GROUP_DEL。</p>
+<p>2，根据上面生成签名的方法生成签名，并与接收到的sign进行对比，判断是否一致，如果一致，继续后续处理；</p>
+<p>3，判断action的类型，如果action为AEC_ACCESS_VALIDATION，表示为接入验证，需要从data里面解析出echostr，然后通过上面要求的特定格式返回，如：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"status"</span>:<span class="number">1</span>,<span class="string">"data"</span>:<span class="string">"the value of echostr"</span>&#125;</span><br></pre></td></tr></table></figure></p>
+<p>4，响应其它action,如创建群的action为 AEC_GROUP_CREATE， 删除群的action为AEC_GROUP_DEL等等。</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-12-29T07:14:34.630Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-01-04T08:25:06.629Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="h5-9.html" class="article-footer-prev" title="9.互动直播"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="aec-group.html" class="article-footer-next" title="群事件通知"><span>Next</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
@@ -125,7 +133,7 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">Contents</strong>
-              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#用户事件中心-AEC"><span class="toc-text">用户事件中心(AEC)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-AEC事件通知"><span class="toc-text">1 AEC事件通知</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-AEC数据格式"><span class="toc-text">2 AEC数据格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-接入验证"><span class="toc-text">3 接入验证</span></a></li></ol></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#用户事件中心-AEC"><span class="toc-text">用户事件中心(AEC)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-AEC事件通知"><span class="toc-text">1 AEC事件通知</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-AEC处理逻辑"><span class="toc-text">2 AEC处理逻辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-接入验证"><span class="toc-text">3 接入验证</span></a></li></ol></li></ol>
               <a href="#" id="article-toc-top">Back to Top</a>
             </div>
           </aside>

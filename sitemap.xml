@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
+    
+    <lastmod>2019-01-04T08:25:06.634Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-group.html</loc>
+    
+    <lastmod>2019-01-04T08:25:06.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
+    
+    <lastmod>2019-01-04T08:25:06.629Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-group.html</loc>
+    
+    <lastmod>2019-01-04T08:25:06.629Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
     
     <lastmod>2019-01-02T01:52:54.778Z</lastmod>
@@ -65,13 +93,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
-    
-    <lastmod>2018-12-29T07:14:34.630Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/ios-5.html</loc>
     
     <lastmod>2018-12-29T07:14:34.630Z</lastmod>
@@ -79,14 +100,14 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/ios-3.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/ios-1.html</loc>
     
     <lastmod>2018-12-29T07:14:34.629Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/ios-1.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/ios-3.html</loc>
     
     <lastmod>2018-12-29T07:14:34.629Z</lastmod>
     
@@ -100,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-live.html</loc>
-    
-    <lastmod>2018-12-29T07:14:34.627Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
     
     <lastmod>2018-12-29T07:14:34.627Z</lastmod>
@@ -114,9 +128,9 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-group.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/aec-live.html</loc>
     
-    <lastmod>2018-12-29T07:14:34.626Z</lastmod>
+    <lastmod>2018-12-29T07:14:34.627Z</lastmod>
     
   </url>
   
@@ -135,14 +149,14 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/h5-7.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/android-2.html</loc>
     
     <lastmod>2018-12-29T07:14:34.624Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-2.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/h5-7.html</loc>
     
     <lastmod>2018-12-29T07:14:34.624Z</lastmod>
     
@@ -156,13 +170,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/h5-3.html</loc>
-    
-    <lastmod>2018-12-29T07:14:34.622Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/h5-1.html</loc>
     
     <lastmod>2018-12-29T07:14:34.622Z</lastmod>
@@ -170,14 +177,21 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/index.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/h5-3.html</loc>
+    
+    <lastmod>2018-12-29T07:14:34.622Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-voip.html</loc>
     
     <lastmod>2018-12-29T07:14:34.620Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-voip.html</loc>
+    <loc>http://docs.starrtc.com/en/docs/index.html</loc>
     
     <lastmod>2018-12-29T07:14:34.620Z</lastmod>
     
@@ -359,14 +373,14 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-5.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-3.html</loc>
     
     <lastmod>2018-12-28T09:24:31.184Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-3.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-5.html</loc>
     
     <lastmod>2018-12-28T09:24:31.184Z</lastmod>
     
@@ -383,6 +397,20 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/h5-3.html</loc>
     
     <lastmod>2018-12-27T09:59:33.150Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-errCode.html</loc>
+    
+    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/index.html</loc>
+    
+    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
@@ -408,7 +436,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/h5-6.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
@@ -422,14 +450,14 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-live.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-2.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
@@ -450,42 +478,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-errCode.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-live.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-7.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-voip.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-5.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-4.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-1.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
@@ -499,35 +492,42 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-2.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-4.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-1.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-5.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/index.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-voip.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-group.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-7.html</loc>
     
     <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/h5-4.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/h5-6.html</loc>
+    
+    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-8.html</loc>
     
     <lastmod>2018-12-27T09:59:33.148Z</lastmod>
     
@@ -541,7 +541,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/ios-8.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/h5-4.html</loc>
     
     <lastmod>2018-12-27T09:59:33.148Z</lastmod>
     
