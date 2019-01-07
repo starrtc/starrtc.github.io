@@ -41,17 +41,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="starRTC文档">
   <!-- Open Graph -->
-  <meta name="description" content="聊天室事件通知1 聊天室新建请求AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot; : &quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;roomType&quot; : &quot;x&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;,&quot;userDefineData(可选)&quot; : &quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;">
+  <meta name="description" content="聊天室事件通知1 聊天室新建请求action：AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot;:&quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;roomType&quot;:&quot;x&quot;,&quot;conCurrentNumber&quot;:&quot;200&quot;,&quot;userDefineData&quot;:&quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;&quot;status&quot;:">
 <meta property="og:type" content="website">
 <meta property="og:title" content="starRTC文档">
 <meta property="og:url" content="http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html">
 <meta property="og:site_name" content="starRTC文档">
-<meta property="og:description" content="聊天室事件通知1 聊天室新建请求AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot; : &quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;roomType&quot; : &quot;x&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;,&quot;userDefineData(可选)&quot; : &quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;">
+<meta property="og:description" content="聊天室事件通知1 聊天室新建请求action：AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot;:&quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;roomType&quot;:&quot;x&quot;,&quot;conCurrentNumber&quot;:&quot;200&quot;,&quot;userDefineData&quot;:&quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;&quot;status&quot;:">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-12-27T09:59:33.149Z">
+<meta property="og:updated_time" content="2019-01-07T08:15:11.198Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
-<meta name="twitter:description" content="聊天室事件通知1 聊天室新建请求AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot; : &quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot; : &quot;xxx&quot;,&quot;roomId&quot; : &quot;xxx&quot;,&quot;roomType&quot; : &quot;x&quot;,&quot;conCurrentNumber&quot; : &quot;200&quot;,&quot;userDefineData(可选)&quot; : &quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;">
+<meta name="twitter:description" content="聊天室事件通知1 聊天室新建请求action：AEC_CHATROOM_CREATE &amp;#123;&quot;action&quot;:&quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;roomType&quot;:&quot;x&quot;,&quot;conCurrentNumber&quot;:&quot;200&quot;,&quot;userDefineData&quot;:&quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;&quot;status&quot;:">
 <meta name="twitter:site" content="hexojs">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
@@ -100,15 +100,18 @@
                 <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/aec-chatroom.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h1 id="聊天室事件通知" class="article-heading"><a href="#聊天室事件通知" class="headerlink" title="聊天室事件通知"></a>聊天室事件通知<a class="article-anchor" href="#聊天室事件通知" aria-hidden="true"></a></h1><h2 id="1-聊天室新建请求" class="article-heading"><a href="#1-聊天室新建请求" class="headerlink" title="1 聊天室新建请求"></a>1 聊天室新建请求<a class="article-anchor" href="#1-聊天室新建请求" aria-hidden="true"></a></h2><p>AEC_CHATROOM_CREATE</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_CREATE"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomType"</span> : <span class="string">"x"</span>,<span class="string">"conCurrentNumber"</span> : <span class="string">"200"</span>,<span class="string">"userDefineData(可选)"</span> : <span class="string">"xxxxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure>
-<h2 id="2-删除聊天室请求" class="article-heading"><a href="#2-删除聊天室请求" class="headerlink" title="2 删除聊天室请求"></a>2 删除聊天室请求<a class="article-anchor" href="#2-删除聊天室请求" aria-hidden="true"></a></h2><p>AEC_CHATROOM_DELETE<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_DELETE"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="3-查询聊天室是否存在" class="article-heading"><a href="#3-查询聊天室是否存在" class="headerlink" title="3 查询聊天室是否存在"></a>3 查询聊天室是否存在<a class="article-anchor" href="#3-查询聊天室是否存在" aria-hidden="true"></a></h2><p>AEC_CHATROOM_IS_EXIST<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_IS_EXIST"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x","data":"roomCreaterUserId,conCurrentNumber"&#125;</span></span><br></pre></td></tr></table></figure></p>
-<p>data字段需要返回房间<font color="red">创建者</font>和房间的<font color="red">人数上限</font>，以逗号分隔。</p>
+                <h1 id="聊天室事件通知" class="article-heading"><a href="#聊天室事件通知" class="headerlink" title="聊天室事件通知"></a>聊天室事件通知<a class="article-anchor" href="#聊天室事件通知" aria-hidden="true"></a></h1><h2 id="1-聊天室新建请求" class="article-heading"><a href="#1-聊天室新建请求" class="headerlink" title="1 聊天室新建请求"></a>1 聊天室新建请求<a class="article-anchor" href="#1-聊天室新建请求" aria-hidden="true"></a></h2><p>action：AEC_CHATROOM_CREATE</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span>:<span class="string">"AEC_CHATROOM_CREATE"</span>,<span class="string">"userId"</span>:<span class="string">"xxx"</span>,<span class="string">"roomId"</span>:<span class="string">"xxx"</span>,<span class="string">"roomType"</span>:<span class="string">"x"</span>,<span class="string">"conCurrentNumber"</span>:<span class="string">"200"</span>,<span class="string">"userDefineData"</span>:<span class="string">"xxxxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure>
+<p>其中</p>
+<p>userId：请求创建聊天室的用户id</p>
+<p>userDefineData：客户端创建聊天室时chatroomName参数的值，可以根据自己的业务逻辑来决定其内容，比如里面可以传聊天室名也可以传json。</p>
+<h2 id="2-请求删除聊天室" class="article-heading"><a href="#2-请求删除聊天室" class="headerlink" title="2 请求删除聊天室"></a>2 请求删除聊天室<a class="article-anchor" href="#2-请求删除聊天室" aria-hidden="true"></a></h2><p>action：AEC_CHATROOM_DELETE<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_DELETE"</span>,<span class="string">"userId"</span>:<span class="string">"xxx"</span>,<span class="string">"roomId"</span>:<span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="3-查询聊天室是否存在" class="article-heading"><a href="#3-查询聊天室是否存在" class="headerlink" title="3 查询聊天室是否存在"></a>3 查询聊天室是否存在<a class="article-anchor" href="#3-查询聊天室是否存在" aria-hidden="true"></a></h2><p>action：AEC_CHATROOM_IS_EXIST<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_IS_EXIST"</span>,<span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"roomId"</span> : <span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x","data":"roomCreaterUserId,conCurrentNumber"&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>data字段需要返回房间<font color="red">创建者</font>和房间的<font color="red">人数上限</font>，用逗号分隔。</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-12-27T09:59:33.149Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-01-07T08:15:11.198Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="aec-group.html" class="article-footer-prev" title="群事件通知"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="aec-voip.html" class="article-footer-next" title="单聊事件通知"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
@@ -116,7 +119,7 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目录</strong>
-              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#聊天室事件通知"><span class="toc-text">聊天室事件通知</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-聊天室新建请求"><span class="toc-text">1 聊天室新建请求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-删除聊天室请求"><span class="toc-text">2 删除聊天室请求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-查询聊天室是否存在"><span class="toc-text">3 查询聊天室是否存在</span></a></li></ol></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#聊天室事件通知"><span class="toc-text">聊天室事件通知</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-聊天室新建请求"><span class="toc-text">1 聊天室新建请求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-请求删除聊天室"><span class="toc-text">2 请求删除聊天室</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-查询聊天室是否存在"><span class="toc-text">3 查询聊天室是否存在</span></a></li></ol></li></ol>
               <a href="#" id="article-toc-top">回到顶部</a>
             </div>
           </aside>
