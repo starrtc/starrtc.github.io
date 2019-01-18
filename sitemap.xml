@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/faq/index.html</loc>
-    
-    <lastmod>2019-01-18T04:54:39.930Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
     
-    <lastmod>2019-01-18T04:54:39.927Z</lastmod>
+    <lastmod>2019-01-18T08:56:31.290Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://docs.starrtc.com/en/download/index.html</loc>
     
-    <lastmod>2019-01-18T04:54:39.924Z</lastmod>
+    <lastmod>2019-01-18T08:56:31.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/faq/index.html</loc>
+    
+    <lastmod>2019-01-18T04:54:39.930Z</lastmod>
     
   </url>
   
