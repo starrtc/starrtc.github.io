@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
+    
+    <lastmod>2019-05-28T06:26:40.594Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/web-7.html</loc>
     
     <lastmod>2019-05-23T02:49:52.918Z</lastmod>
@@ -523,13 +530,6 @@
     <loc>http://docs.starrtc.com/en/download/index.html</loc>
     
     <lastmod>2019-04-10T09:09:24.231Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
-    
-    <lastmod>2019-04-10T09:09:24.227Z</lastmod>
     
   </url>
   
