@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3a.html</loc>
+    
+    <lastmod>2019-05-29T03:24:36.428Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3b.html</loc>
+    
+    <lastmod>2019-05-29T03:24:36.428Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-3b.html</loc>
+    
+    <lastmod>2019-05-29T03:24:36.423Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-3a.html</loc>
+    
+    <lastmod>2019-05-29T03:24:36.422Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/download/index.html</loc>
     
     <lastmod>2019-05-28T06:40:09.759Z</lastmod>
@@ -233,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-3b.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.551Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-6.html</loc>
     
     <lastmod>2019-05-10T09:20:08.539Z</lastmod>
@@ -248,13 +269,6 @@
   
   <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-8.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.539Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-3b.html</loc>
     
     <lastmod>2019-05-10T09:20:08.539Z</lastmod>
     
@@ -278,20 +292,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/android-9.html</loc>
     
     <lastmod>2019-05-10T09:20:08.535Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-3a.html</loc>
-    
-    <lastmod>2019-05-09T08:00:04.930Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-3a.html</loc>
-    
-    <lastmod>2019-05-09T08:00:04.922Z</lastmod>
     
   </url>
   
