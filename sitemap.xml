@@ -2,6 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/web-7.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.053Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-9.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.053Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-5.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.052Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-10.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-8.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.050Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-4.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-6.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/web-2.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.046Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-7.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.036Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-9.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.036Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-5.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.033Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-10.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.033Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-4.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-6.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-8.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.031Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-2.html</loc>
+    
+    <lastmod>2019-05-31T07:31:56.029Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/android-3a.html</loc>
     
     <lastmod>2019-05-29T03:24:36.428Z</lastmod>
@@ -44,27 +156,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/web-7.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.918Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/web-9.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.918Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/web-5.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.917Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/ios-10.html</loc>
     
     <lastmod>2019-05-23T02:49:52.916Z</lastmod>
@@ -93,41 +184,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/web-8.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.914Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/web-2.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.913Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/web-4.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.913Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/web-6.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.913Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-5.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.881Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/web-3.html</loc>
     
     <lastmod>2019-05-23T02:49:52.880Z</lastmod>
@@ -152,48 +208,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/ios-7.html</loc>
     
     <lastmod>2019-05-23T02:49:52.878Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-6.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.877Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-8.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.877Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-2.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-4.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-9.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.875Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-7.html</loc>
-    
-    <lastmod>2019-05-23T02:49:52.873Z</lastmod>
     
   </url>
   
