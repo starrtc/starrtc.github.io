@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
+    
+    <lastmod>2019-06-20T10:32:22.770Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
+    
+    <lastmod>2019-06-20T10:32:22.767Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/android-3b.html</loc>
     
     <lastmod>2019-06-20T09:05:07.731Z</lastmod>
@@ -572,20 +586,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/win-3.html</loc>
     
     <lastmod>2019-04-16T06:45:35.717Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
-    
-    <lastmod>2019-04-10T09:01:27.796Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
-    
-    <lastmod>2019-04-10T09:01:27.788Z</lastmod>
     
   </url>
   

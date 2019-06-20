@@ -41,17 +41,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="starRTC文档">
   <!-- Open Graph -->
-  <meta name="description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送HTTP POST请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设">
+  <meta name="description" content="用户事件中心(AEC)AEC=agent eventCenter, 类似微信公众号开发，用来与服务端程序进行交互。 注意：私有部署AEC无需查看本页文档，请直接参看： 群事件通知：https://docs.starrtc.com/zh-cn/docs/aec-group.html 聊天室事件通知：https://docs.starrtc.com/zh-cn/docs/aec-chatroom.ht">
 <meta property="og:type" content="website">
 <meta property="og:title" content="starRTC文档">
 <meta property="og:url" content="http://docs.starrtc.com/zh-cn/docs/aec-index.html">
 <meta property="og:site_name" content="starRTC文档">
-<meta property="og:description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送HTTP POST请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设">
+<meta property="og:description" content="用户事件中心(AEC)AEC=agent eventCenter, 类似微信公众号开发，用来与服务端程序进行交互。 注意：私有部署AEC无需查看本页文档，请直接参看： 群事件通知：https://docs.starrtc.com/zh-cn/docs/aec-group.html 聊天室事件通知：https://docs.starrtc.com/zh-cn/docs/aec-chatroom.ht">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-04-10T09:01:27.796Z">
+<meta property="og:updated_time" content="2019-06-20T10:32:22.767Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
-<meta name="twitter:description" content="用户事件中心(AEC)AEC=agent eventCenter 1 AEC事件通知您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。starRTC服务器会向您的这个AEC URL发送HTTP POST请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。 2 AEC处理逻辑假设">
+<meta name="twitter:description" content="用户事件中心(AEC)AEC=agent eventCenter, 类似微信公众号开发，用来与服务端程序进行交互。 注意：私有部署AEC无需查看本页文档，请直接参看： 群事件通知：https://docs.starrtc.com/zh-cn/docs/aec-group.html 聊天室事件通知：https://docs.starrtc.com/zh-cn/docs/aec-chatroom.ht">
 <meta name="twitter:site" content="hexojs">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
@@ -100,7 +100,12 @@
                 <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/aec-index.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h1 id="用户事件中心-AEC" class="article-heading"><a href="#用户事件中心-AEC" class="headerlink" title="用户事件中心(AEC)"></a>用户事件中心(AEC)<a class="article-anchor" href="#用户事件中心-AEC" aria-hidden="true"></a></h1><p>AEC=agent eventCenter</p>
+                <h1 id="用户事件中心-AEC" class="article-heading"><a href="#用户事件中心-AEC" class="headerlink" title="用户事件中心(AEC)"></a>用户事件中心(AEC)<a class="article-anchor" href="#用户事件中心-AEC" aria-hidden="true"></a></h1><p>AEC=agent eventCenter, 类似微信公众号开发，用来与服务端程序进行交互。</p>
+<p>注意：私有部署AEC无需查看本页文档，请直接参看：</p>
+<p>群事件通知：<br><a href="https://docs.starrtc.com/zh-cn/docs/aec-group.html">https://docs.starrtc.com/zh-cn/docs/aec-group.html</a></p>
+<p>聊天室事件通知：<br><a href="https://docs.starrtc.com/zh-cn/docs/aec-chatroom.html">https://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</a></p>
+<p>单聊事件通知：<br><a href="https://docs.starrtc.com/zh-cn/docs/aec-voip.html">https://docs.starrtc.com/zh-cn/docs/aec-voip.html</a></p>
+<p>直播事件通知：<br><a href="https://docs.starrtc.com/zh-cn/docs/aec-live.html">https://docs.starrtc.com/zh-cn/docs/aec-live.html</a></p>
 <h2 id="1-AEC事件通知" class="article-heading"><a href="#1-AEC事件通知" class="headerlink" title="1 AEC事件通知"></a>1 AEC事件通知<a class="article-anchor" href="#1-AEC事件通知" aria-hidden="true"></a></h2><p>您需要用自己熟悉的语言实现一个服务端接口，我们将其称之为AEC URL，这个URL用于接收starRTC服务器的事件通知。<br>starRTC服务器会向您的这个AEC URL发送HTTP <font color="red">POST</font>请求来实现数据的交换，您的服务器收到starRTC服务器的事件通知后，需要根据相应的业务逻辑做出应答。</p>
 <h2 id="2-AEC处理逻辑" class="article-heading"><a href="#2-AEC处理逻辑" class="headerlink" title="2 AEC处理逻辑"></a>2 AEC处理逻辑<a class="article-anchor" href="#2-AEC处理逻辑" aria-hidden="true"></a></h2><p>假设您在starRTC后台填的AEC URL为： <a href="https://www.yoursite.com/eventCenter.php" target="_blank" rel="noopener">https://www.yoursite.com/eventCenter.php</a><br>那么starRTC服务器在事件发生时将会发送data和sign两个参数到您的这个url：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">https:<span class="comment">//www.yoursite.com/eventCenter.php?data=jsonStr&amp;sign=xxx</span></span><br></pre></td></tr></table></figure>
@@ -119,7 +124,7 @@
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-04-10T09:01:27.796Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-06-20T10:32:22.767Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="win-8.html" class="article-footer-prev" title="8.互动直播"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="aec-group.html" class="article-footer-next" title="群事件通知"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
