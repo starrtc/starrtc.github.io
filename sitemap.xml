@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
     
-    <lastmod>2019-06-20T10:32:22.770Z</lastmod>
+    <lastmod>2019-06-27T07:18:42.498Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-index.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-group.html</loc>
     
-    <lastmod>2019-06-20T10:32:22.767Z</lastmod>
+    <lastmod>2019-06-27T07:18:42.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
+    
+    <lastmod>2019-06-27T07:18:42.492Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-group.html</loc>
+    
+    <lastmod>2019-06-27T07:18:42.487Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-index.html</loc>
+    
+    <lastmod>2019-06-27T07:18:42.486Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/download/index.html</loc>
+    
+    <lastmod>2019-06-27T07:18:42.478Z</lastmod>
     
   </url>
   
@@ -292,20 +320,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/android-3a.html</loc>
     
     <lastmod>2019-05-29T03:24:36.422Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/download/index.html</loc>
-    
-    <lastmod>2019-05-28T06:40:09.759Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
-    
-    <lastmod>2019-05-28T06:40:09.755Z</lastmod>
     
   </url>
   
@@ -656,20 +670,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
     
     <lastmod>2019-01-07T08:15:11.198Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-group.html</loc>
-    
-    <lastmod>2019-01-04T08:25:06.633Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-group.html</loc>
-    
-    <lastmod>2019-01-04T08:25:06.629Z</lastmod>
     
   </url>
   

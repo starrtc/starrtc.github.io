@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="群事件通知1 创建群action：AEC_GROUP_CREATE，对应客户端接口createGrouphttps://www.yoursite.com/eventCenter.php?data=&amp;#123;&quot;action&quot;:&quot;AEC_GROUP_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;addUsers&quot;:&quot;userId1,userId2,...&quot;,&quot;userDefineData&quot;:&quot;xx">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-01-04T08:25:06.633Z">
+<meta property="og:updated_time" content="2019-06-27T07:18:42.497Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="群事件通知1 创建群action：AEC_GROUP_CREATE，对应客户端接口createGrouphttps://www.yoursite.com/eventCenter.php?data=&amp;#123;&quot;action&quot;:&quot;AEC_GROUP_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;addUsers&quot;:&quot;userId1,userId2,...&quot;,&quot;userDefineData&quot;:&quot;xx">
@@ -136,7 +136,7 @@
 <p>用户请求设置该群为免打扰状态，设置后该群的消息将不会推送至此用户。</p>
 <h2 id="9-设置免打扰模式并同步群成员" class="article-heading"><a href="#9-设置免打扰模式并同步群成员" class="headerlink" title="9 设置免打扰模式并同步群成员"></a>9 设置免打扰模式并同步群成员<a class="article-anchor" href="#9-设置免打扰模式并同步群成员" aria-hidden="true"></a></h2><p>action：AEC_SET_GROUP_PUSH_IGNORE_AND_SYNC_ALL<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_SET_GROUP_PUSH_IGNORE_AND_SYNC_ALL"</span>, <span class="string">"userId"</span> : <span class="string">"xxx"</span>,<span class="string">"groupId"</span>:<span class="string">"xxx"</span>&#125;</span><br><span class="line"><span class="comment">//返回 &#123;"status":"x","data":&#123;"groupList":"userId1,userId2,...","ignoreList(可选)":"userId1,userId2,..."&#125;&#125;</span></span><br></pre></td></tr></table></figure></p>
 <p>和AEC_SET_GROUP_PUSH_IGNORE类似，但此时需要返回全部的群成员，类似AEC_GROUP_SYNC_ALL。</p>
-<p>groupList表示这个裙的所有成员，ignoreList为<font color="red">可选参数</font>，表示所有开启了群消息免打扰的群成员。</p>
+<p>groupList表示这个群的所有成员，ignoreList为<font color="red">可选参数</font>，表示所有开启了群消息免打扰的群成员。</p>
 <font color="gray">群消息免打扰是指该群的消息将不会推送至此用户</font>
 
 
@@ -149,7 +149,7 @@
 <font color="gray">群消息免打扰是指该群的消息将不会推送至此用户</font>
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-01-04T08:25:06.633Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-06-27T07:18:42.497Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="aec-index.html" class="article-footer-prev" title="概述"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="aec-chatroom.html" class="article-footer-next" title="聊天室事件通知"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
