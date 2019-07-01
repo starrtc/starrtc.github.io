@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-channel.html</loc>
+    
+    <lastmod>2019-07-01T07:15:44.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-chatroom.html</loc>
+    
+    <lastmod>2019-07-01T07:15:44.407Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
+    
+    <lastmod>2019-07-01T07:15:44.404Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/aec-channel.html</loc>
+    
+    <lastmod>2019-07-01T07:15:44.404Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/aec-group.html</loc>
     
     <lastmod>2019-07-01T07:08:33.321Z</lastmod>
@@ -16,21 +44,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-chatroom.html</loc>
-    
-    <lastmod>2019-07-01T07:08:33.320Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/aec-other.html</loc>
-    
-    <lastmod>2019-07-01T07:08:33.320Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-channel.html</loc>
     
     <lastmod>2019-07-01T07:08:33.320Z</lastmod>
     
@@ -68,20 +82,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-voip.html</loc>
     
     <lastmod>2019-07-01T07:08:33.303Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
-    
-    <lastmod>2019-07-01T07:08:33.302Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/aec-channel.html</loc>
-    
-    <lastmod>2019-07-01T07:08:33.302Z</lastmod>
     
   </url>
   

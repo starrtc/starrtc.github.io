@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="聊天室事件通知1 聊天室新建请求&amp;#123;&quot;action&quot;:&quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;roomType&quot;:&quot;x&quot;,&quot;conCurrentNumber&quot;:&quot;200&quot;,&quot;listType&quot; : &quot;x&quot;,&quot;userDefineData&quot;:&quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;&quot;status&quot;:&quot;x&quot;&amp;#125;">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-07-01T07:08:33.302Z">
+<meta property="og:updated_time" content="2019-07-01T07:15:44.404Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="聊天室事件通知1 聊天室新建请求&amp;#123;&quot;action&quot;:&quot;AEC_CHATROOM_CREATE&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;roomType&quot;:&quot;x&quot;,&quot;conCurrentNumber&quot;:&quot;200&quot;,&quot;listType&quot; : &quot;x&quot;,&quot;userDefineData&quot;:&quot;xxxxx&quot;&amp;#125;//返回 &amp;#123;&quot;status&quot;:&quot;x&quot;&amp;#125;">
@@ -113,14 +113,14 @@
 <p>目前未开放此功能</p>
 <p>用户每发一条消息都会回调，开放后，可以在此检查用户余额，如果没钱，不让发消息</p>
 <p>可以在此针对每一条消息对用户进行扣费</p>
-<h2 id="5-请求获取聊天室列表数据" class="article-heading"><a href="#5-请求获取聊天室列表数据" class="headerlink" title="5 请求获取聊天室列表数据"></a>5 请求获取聊天室列表数据<a class="article-anchor" href="#5-请求获取聊天室列表数据" aria-hidden="true"></a></h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_QUERY_ALL_CHATROOM_LIST"</span>,<span class="string">"listTypes"</span> : <span class="string">"x"</span>,<span class="string">"userId"</span> : <span class="string">"xxxx"</span>&#125;</span><br><span class="line">&#123;<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:&#123;<span class="string">"roomIdList"</span>:<span class="string">"chatRoom0,chatRoom1,xxx"</span>,<span class="string">"creatorList"</span>:<span class="string">"userId1,userId2,xxx"</span>,<span class="string">"userDefineDataList"</span>:<span class="string">"xxxx1,xxxx2,xxx"</span>&#125;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="5-请求获取聊天室列表数据" class="article-heading"><a href="#5-请求获取聊天室列表数据" class="headerlink" title="5 请求获取聊天室列表数据"></a>5 请求获取聊天室列表数据<a class="article-anchor" href="#5-请求获取聊天室列表数据" aria-hidden="true"></a></h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"action"</span> : <span class="string">"AEC_CHATROOM_QUERY_ALL_CHATROOM_LIST"</span>,<span class="string">"listTypes"</span> : <span class="string">"x"</span>,<span class="string">"userId"</span> : <span class="string">"xxxx"</span>&#125;</span><br><span class="line"></span><br><span class="line">返回：</span><br><span class="line"></span><br><span class="line">&#123;<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:&#123;<span class="string">"roomIdList"</span>:<span class="string">"chatRoom0,chatRoom1,xxx"</span>,<span class="string">"creatorList"</span>:<span class="string">"userId1,userId2,xxx"</span>,<span class="string">"userDefineDataList"</span>:<span class="string">"xxxx1,xxxx2,xxx"</span>&#125;&#125;</span><br></pre></td></tr></table></figure>
 <p>其中listTypes为创建聊天室时用户自定义类型，可以传1，也可以传多种类型的组合值，如1，2（用英文逗号分隔）</p>
 <p>roomIdList为聊天室的id，userDefineDataList目前为聊天室的名字，creatorList为聊天室的创建者，都用逗号分隔，并且一一对应。</p>
 <p>即聊天室chatRoom0的名字为xxxx1，创建者为userId1</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-07-01T07:08:33.302Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-07-01T07:15:44.404Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="aec-group.html" class="article-footer-prev" title="群事件通知"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="aec-voip.html" class="article-footer-next" title="单聊事件通知"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
