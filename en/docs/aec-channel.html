@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="流事件通知与音视频channel相关的事件通知 根据创建channel时用户指定的自定义类型，可以将channel用于直播，会议等业务。 1 创建 GLOBAL_PUBLIC CHANNEL&amp;#123;&quot;action&quot;:&quot;AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;listType&quot; : &quot;xxx&quot;,&quot;">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-07-01T07:15:44.409Z">
+<meta property="og:updated_time" content="2019-07-01T07:28:17.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="流事件通知与音视频channel相关的事件通知 根据创建channel时用户指定的自定义类型，可以将channel用于直播，会议等业务。 1 创建 GLOBAL_PUBLIC CHANNEL&amp;#123;&quot;action&quot;:&quot;AEC_LIVE_CREATE_CHANNEL_GLOBAL_PUBLIC&quot;,&quot;userId&quot;:&quot;xxx&quot;,&quot;roomId&quot;:&quot;xxx&quot;,&quot;listType&quot; : &quot;xxx&quot;,&quot;">
@@ -136,9 +136,10 @@
 
 返回：
 
- {<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:{<span class="string">"roomIdList"</span>:<span class="string">"chatRoom0,chatRoom1,chatRoom2"</span>,<span class="string">"creatorList"</span>:<span class="string">"userId1,userId2,userId3"</span>,<span class="string">"userDefineDataList"</span>:<span class="string">"xxxx1,xxxx2,xxxx3"</span>}}
+ {<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:{<span class="string">"channelIdList"</span>:<span class="string">"channel0,channel1,channel2"</span>,:<span class="string">"roomIdList"</span>:<span class="string">"chatRoom0,chatRoom1,chatRoom2"</span>,<span class="string">"creatorList"</span>:<span class="string">"userId1,userId2,userId3"</span>,<span class="string">"userDefineDataList"</span>:<span class="string">"xxxx1,xxxx2,xxxx3"</span>}}
 </code></pre>
-<p>listTypes：用户自定义类型参数列表，比如示例程序中，1表示带聊天功能的直播，3表示带聊天功能的会议<br>传1则获取带聊天功能的直播列表，传1,3则获取带聊天功能的直播与会议2者的列表。</p>
+<p>listTypes：用户自定义类型参数列表，比如示例程序中，1表示带聊天功能的直播，3表示带聊天功能的会议<br>传1则获取带聊天功能的直播列表，传1,3(用英文逗号分隔的组合值)则获取带聊天功能的直播与会议2者的列表。</p>
+<p>channelIdList为channel的id，roomIdList为聊天室的id，creatorList为聊天室的创建者，都用逗号分隔，并且一一对应</p>
 <h2 id="18-拉流申请转发" class="article-heading"><a href="#18-拉流申请转发" class="headerlink" title="18 拉流申请转发"></a>18 拉流申请转发<a class="article-anchor" href="#18-拉流申请转发" aria-hidden="true"></a></h2><pre><code class="java">{<span class="string">"action"</span> : <span class="string">"AEC_LIVE_LIVEPROXY_APPLY_UPLOAD_CHANNEL"</span>,<span class="string">"channelId"</span> : <span class="string">"xxx"</span>}
 返回 {<span class="string">"status"</span>:<span class="string">"x"</span>,<span class="string">"data"</span>:{<span class="string">"conCurrentNumber"</span>:<span class="string">"xxx"</span>}}
 </code></pre>
@@ -151,7 +152,7 @@
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-07-01T07:15:44.409Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-07-01T07:28:17.110Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="aec-voip.html" class="article-footer-prev" title="voip events"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="aec-other.html" class="article-footer-next" title="other events"><span>Next</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
