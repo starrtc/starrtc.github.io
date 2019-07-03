@@ -2,30 +2,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-channel.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-errCode.html</loc>
     
-    <lastmod>2019-07-01T07:28:17.110Z</lastmod>
+    <lastmod>2019-07-03T06:44:36.885Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-channel.html</loc>
     
-    <lastmod>2019-07-01T07:28:17.107Z</lastmod>
+    <lastmod>2019-07-03T06:44:36.884Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/aec-chatroom.html</loc>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-9.html</loc>
     
-    <lastmod>2019-07-01T07:15:44.407Z</lastmod>
+    <lastmod>2019-07-03T06:44:36.883Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-3b.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.882Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-8.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-11.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-6.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.879Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-chatroom.html</loc>
     
-    <lastmod>2019-07-01T07:15:44.404Z</lastmod>
+    <lastmod>2019-07-03T06:44:36.877Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-8.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.861Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.859Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3a.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.858Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-chatroom.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.857Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-errCode.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.856Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-9.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.855Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/aec-channel.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.855Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3b.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.852Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-11.html</loc>
+    
+    <lastmod>2019-07-03T06:44:36.852Z</lastmod>
     
   </url>
   
@@ -100,21 +191,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-3b.html</loc>
-    
-    <lastmod>2019-06-20T09:05:07.731Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/android-beauty-callback.html</loc>
-    
-    <lastmod>2019-06-20T09:05:07.730Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-11.html</loc>
     
     <lastmod>2019-06-20T09:05:07.730Z</lastmod>
     
@@ -135,21 +212,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-3b.html</loc>
-    
-    <lastmod>2019-06-20T09:05:07.707Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/ios-3b.html</loc>
-    
-    <lastmod>2019-06-20T09:05:07.704Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-11.html</loc>
     
     <lastmod>2019-06-20T09:05:07.704Z</lastmod>
     
@@ -366,13 +429,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-3a.html</loc>
-    
-    <lastmod>2019-05-29T03:24:36.428Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-3a.html</loc>
     
     <lastmod>2019-05-29T03:24:36.422Z</lastmod>
@@ -471,44 +527,9 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.551Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/android-7.html</loc>
     
     <lastmod>2019-05-10T09:20:08.551Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-8.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.551Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-9.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.551Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-6.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.539Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-8.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.539Z</lastmod>
     
   </url>
   
@@ -521,13 +542,6 @@
   
   <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-7.html</loc>
-    
-    <lastmod>2019-05-10T09:20:08.535Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-9.html</loc>
     
     <lastmod>2019-05-10T09:20:08.535Z</lastmod>
     
@@ -737,13 +751,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-errCode.html</loc>
-    
-    <lastmod>2018-12-29T07:14:34.618Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/android-10.html</loc>
     
     <lastmod>2018-12-29T07:14:34.617Z</lastmod>
@@ -775,13 +782,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/android-10.html</loc>
     
     <lastmod>2018-12-28T09:24:31.187Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-errCode.html</loc>
-    
-    <lastmod>2018-12-27T09:59:33.149Z</lastmod>
     
   </url>
   
