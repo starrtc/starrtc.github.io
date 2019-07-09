@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/ios-11.html</loc>
+    
+    <lastmod>2019-07-09T02:16:18.093Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/ios-11.html</loc>
+    
+    <lastmod>2019-07-09T02:16:18.083Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/web-7.html</loc>
     
     <lastmod>2019-07-08T09:49:38.279Z</lastmod>
