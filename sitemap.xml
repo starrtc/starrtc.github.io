@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
+    
+    <lastmod>2019-07-10T07:47:42.163Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/download/index.html</loc>
+    
+    <lastmod>2019-07-10T07:47:42.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/ios-11.html</loc>
     
     <lastmod>2019-07-09T02:16:18.093Z</lastmod>
@@ -355,20 +369,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-voip.html</loc>
     
     <lastmod>2019-07-01T07:08:33.303Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/download/index.html</loc>
-    
-    <lastmod>2019-06-27T07:18:42.492Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/download/index.html</loc>
-    
-    <lastmod>2019-06-27T07:18:42.478Z</lastmod>
     
   </url>
   
