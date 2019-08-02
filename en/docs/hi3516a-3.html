@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>starRTC文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://docs.starrtc.com/en/docs/hi3516a-3.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="http://docs.starrtc.com/docs/hi3516a-3.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="http://docs.starrtc.com/zh-cn/docs/hi3516a-3.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://www.starRTC.com/googleapis.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="starRTC文档">
+  <!-- Open Graph -->
+  <meta name="description" content="初始化&amp;amp;登录SDK2.1 登录/退出SDK示例：//登录，创建配置信息对象，读取配置信息CUserManager* pUserManager = new CUserManager();CLogin login(pUserManager);login.logIn();//退出stopIMServer();">
+<meta property="og:type" content="website">
+<meta property="og:title" content="starRTC文档">
+<meta property="og:url" content="http://docs.starrtc.com/en/docs/hi3516a-3.html">
+<meta property="og:site_name" content="starRTC文档">
+<meta property="og:description" content="初始化&amp;amp;登录SDK2.1 登录/退出SDK示例：//登录，创建配置信息对象，读取配置信息CUserManager* pUserManager = new CUserManager();CLogin login(pUserManager);login.logIn();//退出stopIMServer();">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-02T09:32:21.237Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="starRTC文档">
+<meta name="twitter:description" content="初始化&amp;amp;登录SDK2.1 登录/退出SDK示例：//登录，创建配置信息对象，读取配置信息CUserManager* pUserManager = new CUserManager();CLogin login(pUserManager);login.logIn();//退出stopIMServer();">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      
+      <a href="https://docs.starrtc.com/" id="logo">starRTC</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="https://www.starRTC.com" class="main-nav-link">Home</a><a href="https://blog.starRTC.com" class="main-nav-link">Blog</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">Forum</a><a href="/en/docs/" class="main-nav-link">Docs</a><a href="/en/download/" class="main-nav-link">Download</a><a href="/en/contact/" class="main-nav-link">Contact</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>English</span></label>
+      <select id="lang-select" data-canonical="docs/hi3516a-3.html">
+        
+          <option value="en" selected>English</option>
+        
+          <option value="zh-cn">简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name"></h1>
+                <a href="https://github.com/starRTC/docs/edit/master/en/docs/hi3516a-3.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="初始化-amp-登录SDK" class="article-heading"><a href="#初始化-amp-登录SDK" class="headerlink" title="初始化&amp;登录SDK"></a>初始化&amp;登录SDK<a class="article-anchor" href="#初始化-amp-登录SDK" aria-hidden="true"></a></h1><h2 id="2-1-登录-退出SDK" class="article-heading"><a href="#2-1-登录-退出SDK" class="headerlink" title="2.1 登录/退出SDK"></a>2.1 登录/退出SDK<a class="article-anchor" href="#2-1-登录-退出SDK" aria-hidden="true"></a></h2><p>示例：<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//登录，创建配置信息对象，读取配置信息</span></span><br><span class="line">CUserManager* pUserManager = <span class="keyword">new</span> CUserManager();</span><br><span class="line"><span class="function">CLogin <span class="title">login</span><span class="params">(pUserManager)</span></span>;</span><br><span class="line">login.logIn();</span><br><span class="line"></span><br><span class="line"><span class="comment">//退出</span></span><br><span class="line">stopIMServer();</span><br></pre></td></tr></table></figure></p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-08-02T09:32:21.237Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+		<a href="hi3516a-2.html" class="article-footer-prev" title="2.SDK intro"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="hi3516a-4.html" class="article-footer-next" title="4.live"><span>Next</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">Contents</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#初始化-amp-登录SDK"><span class="toc-text">初始化&amp;登录SDK</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-登录-退出SDK"><span class="toc-text">2.1 登录/退出SDK</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">Back to Top</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link">Overview</a><strong class="sidebar-title">Android</strong><a href="android-1.html" class="sidebar-link">1.prerequisite</a><a href="android-2.html" class="sidebar-link">2.SDK intro</a><a href="android-3b.html" class="sidebar-link">3b.init(private)</a><a href="android-4.html" class="sidebar-link">4.im</a><a href="android-5.html" class="sidebar-link">5.group msg</a><a href="android-6.html" class="sidebar-link">6.chatroom msg</a><a href="android-7.html" class="sidebar-link">7.voip</a><a href="android-8.html" class="sidebar-link">8.meeting</a><a href="android-9.html" class="sidebar-link">9.live</a><a href="android-10.html" class="sidebar-link">10.other components</a><a href="android-11.html" class="sidebar-link">11.super room</a><a href="android-user-list.html" class="sidebar-link">online user list</a><a href="android-beauty-callback.html" class="sidebar-link">beauty</a><a href="android-errCode.html" class="sidebar-link">ErrorCode</a><strong class="sidebar-title">iOS</strong><a href="ios-1.html" class="sidebar-link">1.prerequisite</a><a href="ios-2.html" class="sidebar-link">2.SDK intro</a><a href="ios-3b.html" class="sidebar-link">3b.init(private)</a><a href="ios-4.html" class="sidebar-link">4.im</a><a href="ios-5.html" class="sidebar-link">5.group msg</a><a href="ios-6.html" class="sidebar-link">6.chatroom msg</a><a href="ios-7.html" class="sidebar-link">7.voip</a><a href="ios-8.html" class="sidebar-link">8.meeting</a><a href="ios-9.html" class="sidebar-link">9.live</a><a href="ios-10.html" class="sidebar-link">10.voip direct connection</a><a href="ios-11.html" class="sidebar-link">11.beauty</a><a href="ios-12.html" class="sidebar-link">12.super room</a><strong class="sidebar-title">sidebar.docs.rpi</strong><strong class="sidebar-title">sidebar.docs.hisilicon</strong><a href="hi3516a-1.html" class="sidebar-link">1.prerequisite</a><a href="hi3516a-2.html" class="sidebar-link">2.SDK intro</a><a href="hi3516a-3.html" class="sidebar-link current">3.init</a><a href="hi3516a-4.html" class="sidebar-link">4.live</a><strong class="sidebar-title">web</strong><a href="web-1.html" class="sidebar-link">1.prerequisite</a><a href="web-2.html" class="sidebar-link">2.SDK intro</a><a href="web-3.html" class="sidebar-link">3.init</a><a href="web-4.html" class="sidebar-link">4.im</a><a href="web-5.html" class="sidebar-link">5.group msg</a><a href="web-6.html" class="sidebar-link">6.chatroom msg</a><a href="web-7.html" class="sidebar-link">7.voip</a><a href="web-8.html" class="sidebar-link">8.meeting</a><a href="web-9.html" class="sidebar-link">9.live</a><a href="web-10.html" class="sidebar-link">10.super room</a><a href="web-11.html" class="sidebar-link">11.非AEC测试接口</a><strong class="sidebar-title">Win PC</strong><a href="win-1.html" class="sidebar-link">1.prerequisite</a><a href="win-2.html" class="sidebar-link">2.SDK intro</a><a href="win-3.html" class="sidebar-link">3.init</a><a href="win-4.html" class="sidebar-link">4.im</a><a href="win-5.html" class="sidebar-link">5.group msg</a><a href="win-6.html" class="sidebar-link">6.chatroom msg</a><a href="win-7.html" class="sidebar-link">7.voip</a><a href="win-8.html" class="sidebar-link">8.meeting</a><a href="win-9.html" class="sidebar-link">9.live</a><strong class="sidebar-title">Server API</strong><a href="aec-index.html" class="sidebar-link">Overview</a><a href="aec-group.html" class="sidebar-link">group events</a><a href="aec-chatroom.html" class="sidebar-link">chatroom events</a><a href="aec-voip.html" class="sidebar-link">voip events</a><a href="aec-channel.html" class="sidebar-link">音视频流事件通知</a><a href="aec-other.html" class="sidebar-link">other events</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2010-2019 <a href="https://www.starRTC.com" target="_blank">starRTC.com</a><br>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/starrtc/android-demo" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="https://www.starRTC.com" class="main-nav-link">Home</a><a href="https://blog.starRTC.com" class="main-nav-link">Blog</a><a href="https://github.com/starrtc/android-demo/issues" class="main-nav-link">Forum</a><a href="/en/docs/" class="mobile-nav-link">Docs</a><a href="/en/download/" class="mobile-nav-link">Download</a><a href="/en/contact/" class="mobile-nav-link">Contact</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/starrtc/android-demo" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link">Overview</a><strong class="mobile-nav-title">Android</strong><a href="android-1.html" class="mobile-nav-link">1.prerequisite</a><a href="android-2.html" class="mobile-nav-link">2.SDK intro</a><a href="android-3b.html" class="mobile-nav-link">3b.init(private)</a><a href="android-4.html" class="mobile-nav-link">4.im</a><a href="android-5.html" class="mobile-nav-link">5.group msg</a><a href="android-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="android-7.html" class="mobile-nav-link">7.voip</a><a href="android-8.html" class="mobile-nav-link">8.meeting</a><a href="android-9.html" class="mobile-nav-link">9.live</a><a href="android-10.html" class="mobile-nav-link">10.other components</a><a href="android-11.html" class="mobile-nav-link">11.super room</a><a href="android-user-list.html" class="mobile-nav-link">online user list</a><a href="android-beauty-callback.html" class="mobile-nav-link">beauty</a><a href="android-errCode.html" class="mobile-nav-link">ErrorCode</a><strong class="mobile-nav-title">iOS</strong><a href="ios-1.html" class="mobile-nav-link">1.prerequisite</a><a href="ios-2.html" class="mobile-nav-link">2.SDK intro</a><a href="ios-3b.html" class="mobile-nav-link">3b.init(private)</a><a href="ios-4.html" class="mobile-nav-link">4.im</a><a href="ios-5.html" class="mobile-nav-link">5.group msg</a><a href="ios-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="ios-7.html" class="mobile-nav-link">7.voip</a><a href="ios-8.html" class="mobile-nav-link">8.meeting</a><a href="ios-9.html" class="mobile-nav-link">9.live</a><a href="ios-10.html" class="mobile-nav-link">10.voip direct connection</a><a href="ios-11.html" class="mobile-nav-link">11.beauty</a><a href="ios-12.html" class="mobile-nav-link">12.super room</a><strong class="mobile-nav-title">sidebar.docs.rpi</strong><strong class="mobile-nav-title">sidebar.docs.hisilicon</strong><a href="hi3516a-1.html" class="mobile-nav-link">1.prerequisite</a><a href="hi3516a-2.html" class="mobile-nav-link">2.SDK intro</a><a href="hi3516a-3.html" class="mobile-nav-link current">3.init</a><a href="hi3516a-4.html" class="mobile-nav-link">4.live</a><strong class="mobile-nav-title">web</strong><a href="web-1.html" class="mobile-nav-link">1.prerequisite</a><a href="web-2.html" class="mobile-nav-link">2.SDK intro</a><a href="web-3.html" class="mobile-nav-link">3.init</a><a href="web-4.html" class="mobile-nav-link">4.im</a><a href="web-5.html" class="mobile-nav-link">5.group msg</a><a href="web-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="web-7.html" class="mobile-nav-link">7.voip</a><a href="web-8.html" class="mobile-nav-link">8.meeting</a><a href="web-9.html" class="mobile-nav-link">9.live</a><a href="web-10.html" class="mobile-nav-link">10.super room</a><a href="web-11.html" class="mobile-nav-link">11.非AEC测试接口</a><strong class="mobile-nav-title">Win PC</strong><a href="win-1.html" class="mobile-nav-link">1.prerequisite</a><a href="win-2.html" class="mobile-nav-link">2.SDK intro</a><a href="win-3.html" class="mobile-nav-link">3.init</a><a href="win-4.html" class="mobile-nav-link">4.im</a><a href="win-5.html" class="mobile-nav-link">5.group msg</a><a href="win-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="win-7.html" class="mobile-nav-link">7.voip</a><a href="win-8.html" class="mobile-nav-link">8.meeting</a><a href="win-9.html" class="mobile-nav-link">9.live</a><strong class="mobile-nav-title">Server API</strong><a href="aec-index.html" class="mobile-nav-link">Overview</a><a href="aec-group.html" class="mobile-nav-link">group events</a><a href="aec-chatroom.html" class="mobile-nav-link">chatroom events</a><a href="aec-voip.html" class="mobile-nav-link">voip events</a><a href="aec-channel.html" class="mobile-nav-link">音视频流事件通知</a><a href="aec-other.html" class="mobile-nav-link">other events</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>English</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/hi3516a-3.html">
+      
+        <option value="en" selected>English</option>
+      
+        <option value="zh-cn">简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'c3d5d4c995b5e0c2ffb5623900279a66',
+  indexName: 'hexo',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>
