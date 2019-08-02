@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/rpi-1.html</loc>
+    
+    <lastmod>2019-08-02T09:58:04.459Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/rpi-1.html</loc>
+    
+    <lastmod>2019-08-02T09:58:04.456Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/win-9.html</loc>
     
     <lastmod>2019-08-02T09:32:21.291Z</lastmod>
