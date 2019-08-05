@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/hi3516a-1.html</loc>
+    
+    <lastmod>2019-08-05T07:05:14.939Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/hi3516a-1.html</loc>
+    
+    <lastmod>2019-08-05T07:05:14.925Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/download/index.html</loc>
     
     <lastmod>2019-08-02T10:19:10.426Z</lastmod>
@@ -44,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/hi3516a-1.html</loc>
-    
-    <lastmod>2019-08-02T09:32:21.290Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/web-3.html</loc>
     
     <lastmod>2019-08-02T09:32:21.289Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>http://docs.starrtc.com/en/docs/hi3516a-3.html</loc>
     
     <lastmod>2019-08-02T09:32:21.237Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/hi3516a-1.html</loc>
-    
-    <lastmod>2019-08-02T09:32:21.235Z</lastmod>
     
   </url>
   
