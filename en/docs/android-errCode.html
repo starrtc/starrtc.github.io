@@ -41,17 +41,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="starRTC文档">
   <!-- Open Graph -->
-  <meta name="description" content="ErrorCode对照表   错误码 描述     110000 成功   110001 内部错误   111001 AEC鉴权失败   111002 AEC url连接失败   111003 AEC返回的json格式解析错误   111004 获取guardToken和aec url失败   112001 sendToMoonServer error   112002 用户名超长   11200">
+  <meta name="description" content="ErrorCode对照表   error code description     110000 success   110001 internal error   111001 AEC authentication failed   111002 AEC url connection failed   111003 parsing error of json format which retur">
 <meta property="og:type" content="website">
 <meta property="og:title" content="starRTC文档">
 <meta property="og:url" content="http://docs.starrtc.com/en/docs/android-errCode.html">
 <meta property="og:site_name" content="starRTC文档">
-<meta property="og:description" content="ErrorCode对照表   错误码 描述     110000 成功   110001 内部错误   111001 AEC鉴权失败   111002 AEC url连接失败   111003 AEC返回的json格式解析错误   111004 获取guardToken和aec url失败   112001 sendToMoonServer error   112002 用户名超长   11200">
+<meta property="og:description" content="ErrorCode对照表   error code description     110000 success   110001 internal error   111001 AEC authentication failed   111002 AEC url connection failed   111003 parsing error of json format which retur">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-07-03T06:44:36.856Z">
+<meta property="og:updated_time" content="2019-09-03T10:02:34.567Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
-<meta name="twitter:description" content="ErrorCode对照表   错误码 描述     110000 成功   110001 内部错误   111001 AEC鉴权失败   111002 AEC url连接失败   111003 AEC返回的json格式解析错误   111004 获取guardToken和aec url失败   112001 sendToMoonServer error   112002 用户名超长   11200">
+<meta name="twitter:description" content="ErrorCode对照表   error code description     110000 success   110001 internal error   111001 AEC authentication failed   111002 AEC url connection failed   111003 parsing error of json format which retur">
 <meta name="twitter:site" content="hexojs">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
@@ -103,34 +103,34 @@
                 <h1 id="ErrorCode对照表" class="article-heading"><a href="#ErrorCode对照表" class="headerlink" title="ErrorCode对照表"></a>ErrorCode对照表<a class="article-anchor" href="#ErrorCode对照表" aria-hidden="true"></a></h1><table>
 <thead>
 <tr>
-<th>错误码</th>
-<th>描述</th>
+<th>error code</th>
+<th>description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>110000</td>
-<td>成功</td>
+<td>success</td>
 </tr>
 <tr>
 <td>110001</td>
-<td>内部错误</td>
+<td>internal error</td>
 </tr>
 <tr>
 <td>111001</td>
-<td>AEC鉴权失败</td>
+<td>AEC authentication failed</td>
 </tr>
 <tr>
 <td>111002</td>
-<td>AEC url连接失败</td>
+<td>AEC url connection failed</td>
 </tr>
 <tr>
 <td>111003</td>
-<td>AEC返回的json格式解析错误</td>
+<td>parsing error of json format which returned by AEC</td>
 </tr>
 <tr>
 <td>111004</td>
-<td>获取guardToken和aec url失败</td>
+<td>Failed to get guardToken and aec url</td>
 </tr>
 <tr>
 <td>112001</td>
@@ -138,394 +138,39 @@
 </tr>
 <tr>
 <td>112002</td>
-<td>用户名超长</td>
+<td>User name is too long</td>
 </tr>
 <tr>
 <td>112003</td>
-<td>用户名不符合类似appid_userid的规则</td>
+<td>Username does not match rules like appid_userid</td>
 </tr>
 <tr>
 <td>112004</td>
-<td>verify时用户还未登录</td>
+<td>User has not logged in when verify</td>
 </tr>
 <tr>
 <td>112005</td>
-<td>verify时提供的starToken不匹配</td>
+<td>The starToken provided does not match when verify</td>
 </tr>
 <tr>
 <td>112006</td>
-<td>loginMoonServer处理内容过载</td>
+<td>loginMoonServer is overloaded</td>
 </tr>
 <tr>
 <td>112007</td>
-<td>获取此agent的aecUrl和guardToken失败</td>
+<td>Failed to get aecUrl and guardToken for this agent</td>
 </tr>
 <tr>
 <td>112008</td>
-<td>连接star服务失败</td>
-</tr>
-<tr>
-<td>112009</td>
-<td>star服务返回的agent认证登录地址解析错误</td>
-</tr>
-<tr>
-<td>112010</td>
-<td>连接agent登录认证服务失败</td>
-</tr>
-<tr>
-<td>112011</td>
-<td>agent服务验证失败</td>
-</tr>
-<tr>
-<td>113001</td>
-<td>内容超长</td>
-</tr>
-<tr>
-<td>113002</td>
-<td>HTTP请求没有路径</td>
-</tr>
-<tr>
-<td>113003</td>
-<td>路径格式错误</td>
-</tr>
-<tr>
-<td>113004</td>
-<td>POST内容解析错误</td>
-</tr>
-<tr>
-<td>113005</td>
-<td>POST参数数量错误</td>
-</tr>
-<tr>
-<td>113006</td>
-<td>POST参数错误</td>
-</tr>
-<tr>
-<td>113007</td>
-<td>不支持的协议格式</td>
-</tr>
-<tr>
-<td>120001</td>
-<td>重复登录，被踢下线</td>
-</tr>
-<tr>
-<td>120002</td>
-<td>多次重试发送消息均未得到反馈协议，主动断开</td>
-</tr>
-<tr>
-<td>120003</td>
-<td>socket write时发送错误</td>
-</tr>
-<tr>
-<td>120004</td>
-<td>协议内容超长</td>
-</tr>
-<tr>
-<td>120005</td>
-<td>EPOLL 事件错误</td>
-</tr>
-<tr>
-<td>120006</td>
-<td>EPOLL read错误</td>
-</tr>
-<tr>
-<td>120007</td>
-<td>msgServer顶层协议解析错误</td>
-</tr>
-<tr>
-<td>120008</td>
-<td>msgServer action协议解析错误</td>
-</tr>
-<tr>
-<td>120009</td>
-<td>根据scheduleServer的返回，此用户不再被此台msgServer接受，请重新获取msgServer地址</td>
-</tr>
-<tr>
-<td>120010</td>
-<td>未通过登录认证</td>
-</tr>
-<tr>
-<td>120011</td>
-<td>无权限</td>
-</tr>
-<tr>
-<td>121001</td>
-<td>重复登录，被踢下线</td>
-</tr>
-<tr>
-<td>121002</td>
-<td>多次重试发送消息均未得到反馈协议，主动断开</td>
-</tr>
-<tr>
-<td>121003</td>
-<td>socket write时发送错误</td>
-</tr>
-<tr>
-<td>121004</td>
-<td>协议内容超长</td>
-</tr>
-<tr>
-<td>121005</td>
-<td>EPOLL 事件错误</td>
-</tr>
-<tr>
-<td>121006</td>
-<td>EPOLL read错误</td>
-</tr>
-<tr>
-<td>121007</td>
-<td>顶层协议解析错误</td>
-</tr>
-<tr>
-<td>121008</td>
-<td>action协议解析错误</td>
-</tr>
-<tr>
-<td>121009</td>
-<td>根据scheduleServer的返回，此用户不再被此台msgServer接受，请重新获取msgServer地址</td>
-</tr>
-<tr>
-<td>121010</td>
-<td>无权限</td>
-</tr>
-<tr>
-<td>121011</td>
-<td>检查登录失败</td>
-</tr>
-<tr>
-<td>121012</td>
-<td>AEC参数获取失败</td>
-</tr>
-<tr>
-<td>121013</td>
-<td>AEC鉴权连接失败</td>
-</tr>
-<tr>
-<td>121014</td>
-<td>AEC鉴权失败</td>
-</tr>
-<tr>
-<td>121015</td>
-<td>聊天室房间已存在</td>
-</tr>
-<tr>
-<td>121016</td>
-<td>聊天室房间号同步错误</td>
-</tr>
-<tr>
-<td>121017</td>
-<td>聊天室人数超限</td>
-</tr>
-<tr>
-<td>121018</td>
-<td>聊天室链接错误</td>
-</tr>
-<tr>
-<td>121019</td>
-<td>聊天室类型解析错误</td>
-</tr>
-<tr>
-<td>122001</td>
-<td>此groupId还未同步群成员列表，服务器SDK收到此回复告诉用户之前的操作失败，并立即发送SYNC协议到groupProxy。客户端收到此回复表示群发信息发送失败，等待若干秒再重试</td>
-</tr>
-<tr>
-<td>122002</td>
-<td>此groupId的群成员正在同步中，服务器SDK才会收到，收到后不做任何处理，告诉用户之前的操作失败</td>
-</tr>
-<tr>
-<td>122003</td>
-<td>此用户不在指定的群内</td>
-</tr>
-<tr>
-<td>122004</td>
-<td>sendToMoonServer error</td>
-</tr>
-<tr>
-<td>122005</td>
-<td>验证agent身份信息的接口连接失败</td>
-</tr>
-<tr>
-<td>122006</td>
-<td>agent发送群变更信息时，agentToken或ipaddress未通过认证</td>
-</tr>
-<tr>
-<td>122007</td>
-<td>解析agent数据失败</td>
-</tr>
-<tr>
-<td>122008</td>
-<td>groupPushMoonServer处理内容过载</td>
-</tr>
-<tr>
-<td>122009</td>
-<td>加密类型错误</td>
-</tr>
-<tr>
-<td>130001</td>
-<td>所有live src服务器超载</td>
-</tr>
-<tr>
-<td>130002</td>
-<td>授权验证失败</td>
-</tr>
-<tr>
-<td>130003</td>
-<td>验证agent身份信息的接口连接失败</td>
-</tr>
-<tr>
-<td>130004</td>
-<td>获取agent guardToken失败</td>
-</tr>
-<tr>
-<td>130005</td>
-<td>获取agent guardToken数据错误</td>
-</tr>
-<tr>
-<td>130006</td>
-<td>协议解析错误</td>
-</tr>
-<tr>
-<td>130007</td>
-<td>用户名格式错误</td>
-</tr>
-<tr>
-<td>130008</td>
-<td>指定用户数超限</td>
-</tr>
-<tr>
-<td>130009</td>
-<td>未找到对应的channelId</td>
-</tr>
-<tr>
-<td>130010</td>
-<td>连麦用户数量超限</td>
-</tr>
-<tr>
-<td>130011</td>
-<td>连麦用户无权限</td>
-</tr>
-<tr>
-<td>130012</td>
-<td>申请上传时的音视频参数与第一次申请的不一致</td>
-</tr>
-<tr>
-<td>130013</td>
-<td>重复登录</td>
-</tr>
-<tr>
-<td>130014</td>
-<td>在指定的channel上未找到groupId属性</td>
-</tr>
-<tr>
-<td>130015</td>
-<td>登录服务器验证失败</td>
-</tr>
-<tr>
-<td>130016</td>
-<td>频道关闭</td>
-</tr>
-<tr>
-<td>131001</td>
-<td>所有live vdn服务器超载</td>
-</tr>
-<tr>
-<td>131002</td>
-<td>channelId格式解析错误</td>
-</tr>
-<tr>
-<td>131003</td>
-<td>内部错误，用户需要重试</td>
-</tr>
-<tr>
-<td>131004</td>
-<td>协议解析错误</td>
-</tr>
-<tr>
-<td>131005</td>
-<td>vdnServer与srcServer连接断开</td>
-</tr>
-<tr>
-<td>131006</td>
-<td>重复登录</td>
-</tr>
-<tr>
-<td>131007</td>
-<td>从liveSrc获取channel失败</td>
-</tr>
-<tr>
-<td>131008</td>
-<td>余额不足</td>
-</tr>
-<tr>
-<td>131009</td>
-<td>没有购买门票</td>
-</tr>
-<tr>
-<td>131010</td>
-<td>门票已过期</td>
-</tr>
-<tr>
-<td>131011</td>
-<td>此频道人数超限</td>
-</tr>
-<tr>
-<td>140001</td>
-<td>VOIP协议解析失败</td>
-</tr>
-<tr>
-<td>140002</td>
-<td>VOIP登录失败</td>
-</tr>
-<tr>
-<td>140003</td>
-<td>配对信息错误</td>
-</tr>
-<tr>
-<td>140004</td>
-<td>播放器解码模块初始化失败</td>
-</tr>
-<tr>
-<td>140005</td>
-<td>发起方余额不足</td>
-</tr>
-<tr>
-<td>140006</td>
-<td>接收方余额不足</td>
-</tr>
-<tr>
-<td>140007</td>
-<td>对方连接断开</td>
-</tr>
-<tr>
-<td>150001</td>
-<td>POST参数错误</td>
-</tr>
-<tr>
-<td>150002</td>
-<td>发送到moonServer错误</td>
-</tr>
-<tr>
-<td>150003</td>
-<td>scheduleProxy发送给scheduleXmlParse失败</td>
-</tr>
-<tr>
-<td>150004</td>
-<td>sendToMoonServer error</td>
-</tr>
-<tr>
-<td>150005</td>
-<td>ABC_ERRID_AUTH_FAILED</td>
-</tr>
-<tr>
-<td>160001</td>
-<td>Chatroom 调度IO失败</td>
+<td>Failed to connect to the star service</td>
 </tr>
 </tbody>
 </table>
+<p>112009| Analysis error of agent login authentication address which is returned by the star service  |<br>112010| Failed to connect to the agent login authentication service |<br>| 112011| Verification failed of agent service |<br>| 113001| Content is too long |<br>| 113002| The HTTP request has no path |<br>| 113003| Path format error |<br>113004|  Parsing Error of POST Content |<br>| 113005| POST parameter number error |<br>113006| POST parameter error|<br>| 113007| Unsupported protocol format |<br>|120001| Repeat login, kicked off the line|<br>|120002| retry to send messages for multiple times without feedback protocol, so disconnect from the server actively|<br>| 120003| Send error when socket write |<br>| 120004| Protocol content is too long |<br>| 120005| EPOLL Event Error |<br>| 120006| EPOLL read error|<br>| 120007| Parsing error of msgServer top-level protocol|<br>| 120008| Parsing error of msgServer action protocol|<br>120009| According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address|<br>| 120010| Login authentication Failed|<br>| 120011| No permission |<br>| 121001| Repeat login, kicked off the line|<br>| 121002| retry to send messages for multiple times without feedback protocol, so disconnect from the server actively |<br>| 121003| Send error when socket write |<br>| 121004| Protocol content is too long |<br>| 121005| EPOLL Event Error |<br>| 121006| EPOLL read error|<br>| 121007| Parsing error of top-level protocol |<br>| 121008| Parsing error of action protocol|<br>| 121009| According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address|<br>| 121010| No permission |<br>| 121011| Check login failed |<br>| 121012| AEC parameter acquisition failed |<br>| 121013| AEC authentication connection failed |<br>| 121014| AEC authentication failed |<br>| 121015| Chat room already exists |<br>| 121016| Chat room number synchronization error |<br>121017| The number of chat rooms is over limit|<br>| 121018| Chat room link error |<br>| 121019| Parsing Error of Chat room type|<br>| 122001| This groupId has not yet synchronized the group member list. The server SDK received this reply to tell the user that the previous operation failed and immediately sent the SYNC protocol to groupProxy. When the client receives this reply, it indicates that the group information is failed to be sent, you can wait for a few seconds and retry |<br>| 122002| The group members of this groupId are being synchronized, the server SDK will receive it, and will not do any processing after receiving it. It tells the user that the previous operation failed |<br>| 122003| This user is not in the specified group |<br>| 122004| sendToMoonServer error|<br>| 122005| Failed to connect the interface of verification agent identity information |<br>| 122006| AgentToken or ipaddress fails authentication when agent sends group change information,  |<br>| 122007| Parsing error of agent data  |<br>| 122008| The groupPushMoonServer is overloaded |<br>| 122009| Encryption type error |<br>| 130001| All live src servers is overloaded |<br>| 130002| Authorization verification failed |<br>| 130003| Failed to connect the interface of verification agent identity information |<br>| 130004| Failed to get agent guardToken |<br>| 130005| Get agent guardToken data error |<br>| 130006| Protocol parsing error |<br>| 130007| Username format error |<br>| 130008| The specified number of users exceeded |<br>| 130009| No corresponding channelId found |<br>| 130010| The number of connected users exceeds the limit |<br>| 130011| Broadcast users have no permissions |<br>| 130012| The audio and video parameters when applying for upload are inconsistent with the first application |<br>| 130013| Repeat Login|<br>| 130014| The groupId attribute is not found on the specified channel|<br>| 130015| Login server verification failed |<br>| 130016| Channel off |<br>| 131001| All live vdn servers overloaded |<br>| 131002| channelId format parsing error|<br>| 131003| Internal error, user needs to retry |<br>| 131004| Protocol Parsing Error |<br>| 131005| vdnServer is disconnected from srcServer |<br>| 131006| Repeat Login|<br>| 131007| Failed to get channel from liveSrc |<br>| 131008| Insufficient balance |<br>| 131009| No tickets purchased |<br>| 131010| Tickets have expired |<br>| 131011| The number of people on this channel is over limit|<br>| 140001| Parsing error of VOIP protocol  |<br>| 140002| VOIP login failed |<br>| 140003| Pairing information error|<br>140004| Initialization failed of player decoding module |<br>| 140005| Insufficient balance of initiator |<br>140006| Insufficient balance of recipient  |<br>| 140007| The other party is disconnected |<br>| 150001| POST parameter error |<br>| 150002| Send to moonServer error|<br>| 150003| ScheduleProxy failed to send to scheduleXmlParse |<br>| 150004| sendToMoonServer error|<br>| 150005|ABC_ERRID_AUTH_FAILED|<br>| 160001| Chatroom Dispatch IO Failure |</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-07-03T06:44:36.856Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-09-03T10:02:34.567Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="android-beauty-callback.html" class="article-footer-prev" title="beauty"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="ios-1.html" class="article-footer-next" title="1.prerequisite"><span>Next</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
@@ -541,7 +186,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link">Overview</a><strong class="sidebar-title">Android</strong><a href="android-1.html" class="sidebar-link">1.prerequisite</a><a href="android-2.html" class="sidebar-link">2.SDK intro</a><a href="android-3b.html" class="sidebar-link">3b.init(private)</a><a href="android-4.html" class="sidebar-link">4.im</a><a href="android-5.html" class="sidebar-link">5.group msg</a><a href="android-6.html" class="sidebar-link">6.chatroom msg</a><a href="android-7.html" class="sidebar-link">7.voip</a><a href="android-8.html" class="sidebar-link">8.meeting</a><a href="android-9.html" class="sidebar-link">9.live</a><a href="android-10.html" class="sidebar-link">10.other components</a><a href="android-11.html" class="sidebar-link">11.super room</a><a href="android-user-list.html" class="sidebar-link">online user list</a><a href="android-beauty-callback.html" class="sidebar-link">beauty</a><a href="android-errCode.html" class="sidebar-link current">ErrorCode</a><strong class="sidebar-title">iOS</strong><a href="ios-1.html" class="sidebar-link">1.prerequisite</a><a href="ios-2.html" class="sidebar-link">2.SDK intro</a><a href="ios-3b.html" class="sidebar-link">3b.init(private)</a><a href="ios-4.html" class="sidebar-link">4.im</a><a href="ios-5.html" class="sidebar-link">5.group msg</a><a href="ios-6.html" class="sidebar-link">6.chatroom msg</a><a href="ios-7.html" class="sidebar-link">7.voip</a><a href="ios-8.html" class="sidebar-link">8.meeting</a><a href="ios-9.html" class="sidebar-link">9.live</a><a href="ios-10.html" class="sidebar-link">10.voip direct connection</a><a href="ios-11.html" class="sidebar-link">11.beauty</a><a href="ios-12.html" class="sidebar-link">12.super room</a><strong class="sidebar-title">Raspberry Pi</strong><a href="rpi-1.html" class="sidebar-link">1.prerequisite</a><strong class="sidebar-title">hisilicon</strong><a href="hi3516a-1.html" class="sidebar-link">1.prerequisite</a><a href="hi3516a-2.html" class="sidebar-link">2.SDK intro</a><a href="hi3516a-3.html" class="sidebar-link">3.init</a><a href="hi3516a-4.html" class="sidebar-link">4.live</a><strong class="sidebar-title">web</strong><a href="web-1.html" class="sidebar-link">1.prerequisite</a><a href="web-2.html" class="sidebar-link">2.SDK intro</a><a href="web-3.html" class="sidebar-link">3.init</a><a href="web-4.html" class="sidebar-link">4.im</a><a href="web-5.html" class="sidebar-link">5.group msg</a><a href="web-6.html" class="sidebar-link">6.chatroom msg</a><a href="web-7.html" class="sidebar-link">7.voip</a><a href="web-8.html" class="sidebar-link">8.meeting</a><a href="web-9.html" class="sidebar-link">9.live</a><a href="web-10.html" class="sidebar-link">10.super room</a><a href="web-11.html" class="sidebar-link">11.非AEC测试接口</a><strong class="sidebar-title">Win PC</strong><a href="win-1.html" class="sidebar-link">1.prerequisite</a><a href="win-2.html" class="sidebar-link">2.SDK intro</a><a href="win-3.html" class="sidebar-link">3.init</a><a href="win-4.html" class="sidebar-link">4.im</a><a href="win-5.html" class="sidebar-link">5.group msg</a><a href="win-6.html" class="sidebar-link">6.chatroom msg</a><a href="win-7.html" class="sidebar-link">7.voip</a><a href="win-8.html" class="sidebar-link">8.meeting</a><a href="win-9.html" class="sidebar-link">9.live</a><strong class="sidebar-title">Server API</strong><a href="aec-index.html" class="sidebar-link">Overview</a><a href="aec-group.html" class="sidebar-link">group events</a><a href="aec-chatroom.html" class="sidebar-link">chatroom events</a><a href="aec-voip.html" class="sidebar-link">voip events</a><a href="aec-channel.html" class="sidebar-link">音视频流事件通知</a><a href="aec-other.html" class="sidebar-link">other events</a>
+    <strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link">Overview</a><strong class="sidebar-title">Android</strong><a href="android-1.html" class="sidebar-link">1.prerequisite</a><a href="android-2.html" class="sidebar-link">2.SDK intro</a><a href="android-3.html" class="sidebar-link">3.init(private)</a><a href="android-4.html" class="sidebar-link">4.im</a><a href="android-5.html" class="sidebar-link">5.group msg</a><a href="android-6.html" class="sidebar-link">6.chatroom msg</a><a href="android-7.html" class="sidebar-link">7.voip</a><a href="android-8.html" class="sidebar-link">8.meeting</a><a href="android-9.html" class="sidebar-link">9.live</a><a href="android-10.html" class="sidebar-link">10.other components</a><a href="android-11.html" class="sidebar-link">11.super room</a><a href="android-user-list.html" class="sidebar-link">online user list</a><a href="android-beauty-callback.html" class="sidebar-link">beauty</a><a href="android-errCode.html" class="sidebar-link current">ErrorCode</a><strong class="sidebar-title">iOS</strong><a href="ios-1.html" class="sidebar-link">1.prerequisite</a><a href="ios-2.html" class="sidebar-link">2.SDK intro</a><a href="ios-3.html" class="sidebar-link">3.init(private)</a><a href="ios-4.html" class="sidebar-link">4.im</a><a href="ios-5.html" class="sidebar-link">5.group msg</a><a href="ios-6.html" class="sidebar-link">6.chatroom msg</a><a href="ios-7.html" class="sidebar-link">7.voip</a><a href="ios-8.html" class="sidebar-link">8.meeting</a><a href="ios-9.html" class="sidebar-link">9.live</a><a href="ios-10.html" class="sidebar-link">10.voip direct connection</a><a href="ios-11.html" class="sidebar-link">11.beauty</a><a href="ios-12.html" class="sidebar-link">12.super room</a><strong class="sidebar-title">Raspberry Pi</strong><a href="rpi-1.html" class="sidebar-link">1.prerequisite</a><strong class="sidebar-title">hisilicon</strong><a href="hi3516a-1.html" class="sidebar-link">1.prerequisite</a><a href="hi3516a-2.html" class="sidebar-link">2.SDK intro</a><a href="hi3516a-3.html" class="sidebar-link">3.init</a><a href="hi3516a-4.html" class="sidebar-link">4.live</a><strong class="sidebar-title">web</strong><a href="web-1.html" class="sidebar-link">1.prerequisite</a><a href="web-2.html" class="sidebar-link">2.SDK intro</a><a href="web-3.html" class="sidebar-link">3.init</a><a href="web-4.html" class="sidebar-link">4.im</a><a href="web-5.html" class="sidebar-link">5.group msg</a><a href="web-6.html" class="sidebar-link">6.chatroom msg</a><a href="web-7.html" class="sidebar-link">7.voip</a><a href="web-8.html" class="sidebar-link">8.meeting</a><a href="web-9.html" class="sidebar-link">9.live</a><a href="web-10.html" class="sidebar-link">10.super room</a><a href="web-11.html" class="sidebar-link">11.非AEC测试接口</a><strong class="sidebar-title">Win PC</strong><a href="win-1.html" class="sidebar-link">1.prerequisite</a><a href="win-2.html" class="sidebar-link">2.SDK intro</a><a href="win-3.html" class="sidebar-link">3.init</a><a href="win-4.html" class="sidebar-link">4.im</a><a href="win-5.html" class="sidebar-link">5.group msg</a><a href="win-6.html" class="sidebar-link">6.chatroom msg</a><a href="win-7.html" class="sidebar-link">7.voip</a><a href="win-8.html" class="sidebar-link">8.meeting</a><a href="win-9.html" class="sidebar-link">9.live</a><strong class="sidebar-title">Server API</strong><a href="aec-index.html" class="sidebar-link">Overview</a><a href="aec-group.html" class="sidebar-link">group events</a><a href="aec-chatroom.html" class="sidebar-link">chatroom events</a><a href="aec-voip.html" class="sidebar-link">voip events</a><a href="aec-channel.html" class="sidebar-link">音视频流事件通知</a><a href="aec-other.html" class="sidebar-link">other events</a>
   </div>
 </aside>
     </div>
@@ -570,7 +215,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link">Overview</a><strong class="mobile-nav-title">Android</strong><a href="android-1.html" class="mobile-nav-link">1.prerequisite</a><a href="android-2.html" class="mobile-nav-link">2.SDK intro</a><a href="android-3b.html" class="mobile-nav-link">3b.init(private)</a><a href="android-4.html" class="mobile-nav-link">4.im</a><a href="android-5.html" class="mobile-nav-link">5.group msg</a><a href="android-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="android-7.html" class="mobile-nav-link">7.voip</a><a href="android-8.html" class="mobile-nav-link">8.meeting</a><a href="android-9.html" class="mobile-nav-link">9.live</a><a href="android-10.html" class="mobile-nav-link">10.other components</a><a href="android-11.html" class="mobile-nav-link">11.super room</a><a href="android-user-list.html" class="mobile-nav-link">online user list</a><a href="android-beauty-callback.html" class="mobile-nav-link">beauty</a><a href="android-errCode.html" class="mobile-nav-link current">ErrorCode</a><strong class="mobile-nav-title">iOS</strong><a href="ios-1.html" class="mobile-nav-link">1.prerequisite</a><a href="ios-2.html" class="mobile-nav-link">2.SDK intro</a><a href="ios-3b.html" class="mobile-nav-link">3b.init(private)</a><a href="ios-4.html" class="mobile-nav-link">4.im</a><a href="ios-5.html" class="mobile-nav-link">5.group msg</a><a href="ios-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="ios-7.html" class="mobile-nav-link">7.voip</a><a href="ios-8.html" class="mobile-nav-link">8.meeting</a><a href="ios-9.html" class="mobile-nav-link">9.live</a><a href="ios-10.html" class="mobile-nav-link">10.voip direct connection</a><a href="ios-11.html" class="mobile-nav-link">11.beauty</a><a href="ios-12.html" class="mobile-nav-link">12.super room</a><strong class="mobile-nav-title">Raspberry Pi</strong><a href="rpi-1.html" class="mobile-nav-link">1.prerequisite</a><strong class="mobile-nav-title">hisilicon</strong><a href="hi3516a-1.html" class="mobile-nav-link">1.prerequisite</a><a href="hi3516a-2.html" class="mobile-nav-link">2.SDK intro</a><a href="hi3516a-3.html" class="mobile-nav-link">3.init</a><a href="hi3516a-4.html" class="mobile-nav-link">4.live</a><strong class="mobile-nav-title">web</strong><a href="web-1.html" class="mobile-nav-link">1.prerequisite</a><a href="web-2.html" class="mobile-nav-link">2.SDK intro</a><a href="web-3.html" class="mobile-nav-link">3.init</a><a href="web-4.html" class="mobile-nav-link">4.im</a><a href="web-5.html" class="mobile-nav-link">5.group msg</a><a href="web-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="web-7.html" class="mobile-nav-link">7.voip</a><a href="web-8.html" class="mobile-nav-link">8.meeting</a><a href="web-9.html" class="mobile-nav-link">9.live</a><a href="web-10.html" class="mobile-nav-link">10.super room</a><a href="web-11.html" class="mobile-nav-link">11.非AEC测试接口</a><strong class="mobile-nav-title">Win PC</strong><a href="win-1.html" class="mobile-nav-link">1.prerequisite</a><a href="win-2.html" class="mobile-nav-link">2.SDK intro</a><a href="win-3.html" class="mobile-nav-link">3.init</a><a href="win-4.html" class="mobile-nav-link">4.im</a><a href="win-5.html" class="mobile-nav-link">5.group msg</a><a href="win-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="win-7.html" class="mobile-nav-link">7.voip</a><a href="win-8.html" class="mobile-nav-link">8.meeting</a><a href="win-9.html" class="mobile-nav-link">9.live</a><strong class="mobile-nav-title">Server API</strong><a href="aec-index.html" class="mobile-nav-link">Overview</a><a href="aec-group.html" class="mobile-nav-link">group events</a><a href="aec-chatroom.html" class="mobile-nav-link">chatroom events</a><a href="aec-voip.html" class="mobile-nav-link">voip events</a><a href="aec-channel.html" class="mobile-nav-link">音视频流事件通知</a><a href="aec-other.html" class="mobile-nav-link">other events</a>
+      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link">Overview</a><strong class="mobile-nav-title">Android</strong><a href="android-1.html" class="mobile-nav-link">1.prerequisite</a><a href="android-2.html" class="mobile-nav-link">2.SDK intro</a><a href="android-3.html" class="mobile-nav-link">3.init(private)</a><a href="android-4.html" class="mobile-nav-link">4.im</a><a href="android-5.html" class="mobile-nav-link">5.group msg</a><a href="android-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="android-7.html" class="mobile-nav-link">7.voip</a><a href="android-8.html" class="mobile-nav-link">8.meeting</a><a href="android-9.html" class="mobile-nav-link">9.live</a><a href="android-10.html" class="mobile-nav-link">10.other components</a><a href="android-11.html" class="mobile-nav-link">11.super room</a><a href="android-user-list.html" class="mobile-nav-link">online user list</a><a href="android-beauty-callback.html" class="mobile-nav-link">beauty</a><a href="android-errCode.html" class="mobile-nav-link current">ErrorCode</a><strong class="mobile-nav-title">iOS</strong><a href="ios-1.html" class="mobile-nav-link">1.prerequisite</a><a href="ios-2.html" class="mobile-nav-link">2.SDK intro</a><a href="ios-3.html" class="mobile-nav-link">3.init(private)</a><a href="ios-4.html" class="mobile-nav-link">4.im</a><a href="ios-5.html" class="mobile-nav-link">5.group msg</a><a href="ios-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="ios-7.html" class="mobile-nav-link">7.voip</a><a href="ios-8.html" class="mobile-nav-link">8.meeting</a><a href="ios-9.html" class="mobile-nav-link">9.live</a><a href="ios-10.html" class="mobile-nav-link">10.voip direct connection</a><a href="ios-11.html" class="mobile-nav-link">11.beauty</a><a href="ios-12.html" class="mobile-nav-link">12.super room</a><strong class="mobile-nav-title">Raspberry Pi</strong><a href="rpi-1.html" class="mobile-nav-link">1.prerequisite</a><strong class="mobile-nav-title">hisilicon</strong><a href="hi3516a-1.html" class="mobile-nav-link">1.prerequisite</a><a href="hi3516a-2.html" class="mobile-nav-link">2.SDK intro</a><a href="hi3516a-3.html" class="mobile-nav-link">3.init</a><a href="hi3516a-4.html" class="mobile-nav-link">4.live</a><strong class="mobile-nav-title">web</strong><a href="web-1.html" class="mobile-nav-link">1.prerequisite</a><a href="web-2.html" class="mobile-nav-link">2.SDK intro</a><a href="web-3.html" class="mobile-nav-link">3.init</a><a href="web-4.html" class="mobile-nav-link">4.im</a><a href="web-5.html" class="mobile-nav-link">5.group msg</a><a href="web-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="web-7.html" class="mobile-nav-link">7.voip</a><a href="web-8.html" class="mobile-nav-link">8.meeting</a><a href="web-9.html" class="mobile-nav-link">9.live</a><a href="web-10.html" class="mobile-nav-link">10.super room</a><a href="web-11.html" class="mobile-nav-link">11.非AEC测试接口</a><strong class="mobile-nav-title">Win PC</strong><a href="win-1.html" class="mobile-nav-link">1.prerequisite</a><a href="win-2.html" class="mobile-nav-link">2.SDK intro</a><a href="win-3.html" class="mobile-nav-link">3.init</a><a href="win-4.html" class="mobile-nav-link">4.im</a><a href="win-5.html" class="mobile-nav-link">5.group msg</a><a href="win-6.html" class="mobile-nav-link">6.chatroom msg</a><a href="win-7.html" class="mobile-nav-link">7.voip</a><a href="win-8.html" class="mobile-nav-link">8.meeting</a><a href="win-9.html" class="mobile-nav-link">9.live</a><strong class="mobile-nav-title">Server API</strong><a href="aec-index.html" class="mobile-nav-link">Overview</a><a href="aec-group.html" class="mobile-nav-link">group events</a><a href="aec-chatroom.html" class="mobile-nav-link">chatroom events</a><a href="aec-voip.html" class="mobile-nav-link">voip events</a><a href="aec-channel.html" class="mobile-nav-link">音视频流事件通知</a><a href="aec-other.html" class="mobile-nav-link">other events</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
