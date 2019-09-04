@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/download/index.html</loc>
+    
+    <lastmod>2019-09-04T09:29:16.464Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/android-5.html</loc>
     
     <lastmod>2019-09-03T10:02:34.877Z</lastmod>
@@ -369,13 +376,6 @@
     <loc>http://docs.starrtc.com/en/docs/rpi-1.html</loc>
     
     <lastmod>2019-09-03T10:02:34.531Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/download/index.html</loc>
-    
-    <lastmod>2019-09-03T10:02:33.832Z</lastmod>
     
   </url>
   
