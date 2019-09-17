@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="ErrorCode对照表   error code description     110000 success   110001 internal error   111001 AEC authentication failed   111002 AEC url connection failed   111003 parsing error of json format which retur">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-03T10:02:34.567Z">
+<meta property="og:updated_time" content="2019-09-17T03:15:46.611Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="ErrorCode对照表   error code description     110000 success   110001 internal error   111001 AEC authentication failed   111002 AEC url connection failed   111003 parsing error of json format which retur">
@@ -164,13 +164,368 @@
 <td>112008</td>
 <td>Failed to connect to the star service</td>
 </tr>
+<tr>
+<td>112009</td>
+<td>Analysis error of agent login authentication address which is returned by the star service</td>
+</tr>
+<tr>
+<td>112010</td>
+<td>Failed to connect to the agent login authentication service</td>
+</tr>
+<tr>
+<td>112011</td>
+<td>Verification failed of agent service</td>
+</tr>
+<tr>
+<td>113001</td>
+<td>Content is too long</td>
+</tr>
+<tr>
+<td>113002</td>
+<td>The HTTP request has no path</td>
+</tr>
+<tr>
+<td>113003</td>
+<td>Path format error</td>
+</tr>
+<tr>
+<td>113004</td>
+<td>Parsing Error of POST Content</td>
+</tr>
+<tr>
+<td>113005</td>
+<td>POST parameter number error</td>
+</tr>
+<tr>
+<td>113006</td>
+<td>POST parameter error</td>
+</tr>
+<tr>
+<td>113007</td>
+<td>Unsupported protocol format</td>
+</tr>
+<tr>
+<td>120001</td>
+<td>Repeat login, kicked off the line</td>
+</tr>
+<tr>
+<td>120002</td>
+<td>retry to send messages for multiple times without feedback protocol, so disconnect from the server actively</td>
+</tr>
+<tr>
+<td>120003</td>
+<td>Send error when socket write</td>
+</tr>
+<tr>
+<td>120004</td>
+<td>Protocol content is too long</td>
+</tr>
+<tr>
+<td>120005</td>
+<td>EPOLL Event Error</td>
+</tr>
+<tr>
+<td>120006</td>
+<td>EPOLL read error</td>
+</tr>
+<tr>
+<td>120007</td>
+<td>Parsing error of msgServer top-level protocol</td>
+</tr>
+<tr>
+<td>120008</td>
+<td>Parsing error of msgServer action protocol</td>
+</tr>
+<tr>
+<td>120009</td>
+<td>According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address</td>
+</tr>
+<tr>
+<td>120010</td>
+<td>Login authentication Failed</td>
+</tr>
+<tr>
+<td>120011</td>
+<td>No permission</td>
+</tr>
+<tr>
+<td>121001</td>
+<td>Repeat login, kicked off the line</td>
+</tr>
+<tr>
+<td>121002</td>
+<td>retry to send messages for multiple times without feedback protocol, so disconnect from the server actively</td>
+</tr>
+<tr>
+<td>121003</td>
+<td>Send error when socket write</td>
+</tr>
+<tr>
+<td>121004</td>
+<td>Protocol content is too long</td>
+</tr>
+<tr>
+<td>121005</td>
+<td>EPOLL Event Error</td>
+</tr>
+<tr>
+<td>121006</td>
+<td>EPOLL read error</td>
+</tr>
+<tr>
+<td>121007</td>
+<td>Parsing error of top-level protocol</td>
+</tr>
+<tr>
+<td>121008</td>
+<td>Parsing error of action protocol</td>
+</tr>
+<tr>
+<td>121009</td>
+<td>According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address</td>
+</tr>
+<tr>
+<td>121010</td>
+<td>No permission</td>
+</tr>
+<tr>
+<td>121011</td>
+<td>Check login failed</td>
+</tr>
+<tr>
+<td>121012</td>
+<td>AEC parameter acquisition failed</td>
+</tr>
+<tr>
+<td>121013</td>
+<td>AEC authentication connection failed</td>
+</tr>
+<tr>
+<td>121014</td>
+<td>AEC authentication failed</td>
+</tr>
+<tr>
+<td>121015</td>
+<td>Chat room already exists</td>
+</tr>
+<tr>
+<td>121016</td>
+<td>Chat room number synchronization error</td>
+</tr>
+<tr>
+<td>121017</td>
+<td>The number of chat rooms is over limit</td>
+</tr>
+<tr>
+<td>121018</td>
+<td>Chat room link error</td>
+</tr>
+<tr>
+<td>121019</td>
+<td>Parsing Error of Chat room type</td>
+</tr>
+<tr>
+<td>122001</td>
+<td>This groupId has not yet synchronized the group member list. The server SDK received this reply to tell the user that the previous operation failed and immediately sent the SYNC protocol to groupProxy. When the client receives this reply, it indicates that the group information is failed to be sent, you can wait for a few seconds and retry</td>
+</tr>
+<tr>
+<td>122002</td>
+<td>The group members of this groupId are being synchronized, the server SDK will receive it, and will not do any processing after receiving it. It tells the user that the previous operation failed</td>
+</tr>
+<tr>
+<td>122003</td>
+<td>This user is not in the specified group</td>
+</tr>
+<tr>
+<td>122004</td>
+<td>sendToMoonServer error</td>
+</tr>
+<tr>
+<td>122005</td>
+<td>Failed to connect the interface of verification agent identity information</td>
+</tr>
+<tr>
+<td>122006</td>
+<td>AgentToken or ipaddress fails authentication when agent sends group change information,</td>
+</tr>
+<tr>
+<td>122007</td>
+<td>Parsing error of agent data</td>
+</tr>
+<tr>
+<td>122008</td>
+<td>The groupPushMoonServer is overloaded</td>
+</tr>
+<tr>
+<td>122009</td>
+<td>Encryption type error</td>
+</tr>
+<tr>
+<td>130001</td>
+<td>All live src servers is overloaded</td>
+</tr>
+<tr>
+<td>130002</td>
+<td>Authorization verification failed</td>
+</tr>
+<tr>
+<td>130003</td>
+<td>Failed to connect the interface of verification agent identity information</td>
+</tr>
+<tr>
+<td>130004</td>
+<td>Failed to get agent guardToken</td>
+</tr>
+<tr>
+<td>130005</td>
+<td>Get agent guardToken data error</td>
+</tr>
+<tr>
+<td>130006</td>
+<td>Protocol parsing error</td>
+</tr>
+<tr>
+<td>130007</td>
+<td>Username format error</td>
+</tr>
+<tr>
+<td>130008</td>
+<td>The specified number of users exceeded</td>
+</tr>
+<tr>
+<td>130009</td>
+<td>No corresponding channelId found</td>
+</tr>
+<tr>
+<td>130010</td>
+<td>The number of connected users exceeds the limit</td>
+</tr>
+<tr>
+<td>130011</td>
+<td>Broadcast users have no permissions</td>
+</tr>
+<tr>
+<td>130012</td>
+<td>The audio and video parameters when applying for upload are inconsistent with the first application</td>
+</tr>
+<tr>
+<td>130013</td>
+<td>Repeat Login</td>
+</tr>
+<tr>
+<td>130014</td>
+<td>The groupId attribute is not found on the specified channel</td>
+</tr>
+<tr>
+<td>130015</td>
+<td>Login server verification failed</td>
+</tr>
+<tr>
+<td>130016</td>
+<td>Channel off</td>
+</tr>
+<tr>
+<td>131001</td>
+<td>All live vdn servers overloaded</td>
+</tr>
+<tr>
+<td>131002</td>
+<td>channelId format parsing error</td>
+</tr>
+<tr>
+<td>131003</td>
+<td>Internal error, user needs to retry</td>
+</tr>
+<tr>
+<td>131004</td>
+<td>Protocol Parsing Error</td>
+</tr>
+<tr>
+<td>131005</td>
+<td>vdnServer is disconnected from srcServer</td>
+</tr>
+<tr>
+<td>131006</td>
+<td>Repeat Login</td>
+</tr>
+<tr>
+<td>131007</td>
+<td>Failed to get channel from liveSrc</td>
+</tr>
+<tr>
+<td>131008</td>
+<td>Insufficient balance</td>
+</tr>
+<tr>
+<td>131009</td>
+<td>No tickets purchased</td>
+</tr>
+<tr>
+<td>131010</td>
+<td>Tickets have expired</td>
+</tr>
+<tr>
+<td>131011</td>
+<td>The number of people on this channel is over limit</td>
+</tr>
+<tr>
+<td>140001</td>
+<td>Parsing error of VOIP protocol</td>
+</tr>
+<tr>
+<td>140002</td>
+<td>VOIP login failed</td>
+</tr>
+<tr>
+<td>140003</td>
+<td>Pairing information error</td>
+</tr>
+<tr>
+<td>140004</td>
+<td>Initialization failed of player decoding module</td>
+</tr>
+<tr>
+<td>140005</td>
+<td>Insufficient balance of initiator</td>
+</tr>
+<tr>
+<td>140006</td>
+<td>Insufficient balance of recipient</td>
+</tr>
+<tr>
+<td>140007</td>
+<td>The other party is disconnected</td>
+</tr>
+<tr>
+<td>150001</td>
+<td>POST parameter error</td>
+</tr>
+<tr>
+<td>150002</td>
+<td>Send to moonServer error</td>
+</tr>
+<tr>
+<td>150003</td>
+<td>ScheduleProxy failed to send to scheduleXmlParse</td>
+</tr>
+<tr>
+<td>150004</td>
+<td>sendToMoonServer error</td>
+</tr>
+<tr>
+<td>150005</td>
+<td>ABC_ERRID_AUTH_FAILED</td>
+</tr>
+<tr>
+<td>160001</td>
+<td>Chatroom Dispatch IO Failure</td>
+</tr>
 </tbody>
 </table>
-<p>112009| Analysis error of agent login authentication address which is returned by the star service  |<br>112010| Failed to connect to the agent login authentication service |<br>| 112011| Verification failed of agent service |<br>| 113001| Content is too long |<br>| 113002| The HTTP request has no path |<br>| 113003| Path format error |<br>113004|  Parsing Error of POST Content |<br>| 113005| POST parameter number error |<br>113006| POST parameter error|<br>| 113007| Unsupported protocol format |<br>|120001| Repeat login, kicked off the line|<br>|120002| retry to send messages for multiple times without feedback protocol, so disconnect from the server actively|<br>| 120003| Send error when socket write |<br>| 120004| Protocol content is too long |<br>| 120005| EPOLL Event Error |<br>| 120006| EPOLL read error|<br>| 120007| Parsing error of msgServer top-level protocol|<br>| 120008| Parsing error of msgServer action protocol|<br>120009| According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address|<br>| 120010| Login authentication Failed|<br>| 120011| No permission |<br>| 121001| Repeat login, kicked off the line|<br>| 121002| retry to send messages for multiple times without feedback protocol, so disconnect from the server actively |<br>| 121003| Send error when socket write |<br>| 121004| Protocol content is too long |<br>| 121005| EPOLL Event Error |<br>| 121006| EPOLL read error|<br>| 121007| Parsing error of top-level protocol |<br>| 121008| Parsing error of action protocol|<br>| 121009| According to the return of scheduleServer, this user is no longer accepted by this msgServer, please regain the msgServer address|<br>| 121010| No permission |<br>| 121011| Check login failed |<br>| 121012| AEC parameter acquisition failed |<br>| 121013| AEC authentication connection failed |<br>| 121014| AEC authentication failed |<br>| 121015| Chat room already exists |<br>| 121016| Chat room number synchronization error |<br>121017| The number of chat rooms is over limit|<br>| 121018| Chat room link error |<br>| 121019| Parsing Error of Chat room type|<br>| 122001| This groupId has not yet synchronized the group member list. The server SDK received this reply to tell the user that the previous operation failed and immediately sent the SYNC protocol to groupProxy. When the client receives this reply, it indicates that the group information is failed to be sent, you can wait for a few seconds and retry |<br>| 122002| The group members of this groupId are being synchronized, the server SDK will receive it, and will not do any processing after receiving it. It tells the user that the previous operation failed |<br>| 122003| This user is not in the specified group |<br>| 122004| sendToMoonServer error|<br>| 122005| Failed to connect the interface of verification agent identity information |<br>| 122006| AgentToken or ipaddress fails authentication when agent sends group change information,  |<br>| 122007| Parsing error of agent data  |<br>| 122008| The groupPushMoonServer is overloaded |<br>| 122009| Encryption type error |<br>| 130001| All live src servers is overloaded |<br>| 130002| Authorization verification failed |<br>| 130003| Failed to connect the interface of verification agent identity information |<br>| 130004| Failed to get agent guardToken |<br>| 130005| Get agent guardToken data error |<br>| 130006| Protocol parsing error |<br>| 130007| Username format error |<br>| 130008| The specified number of users exceeded |<br>| 130009| No corresponding channelId found |<br>| 130010| The number of connected users exceeds the limit |<br>| 130011| Broadcast users have no permissions |<br>| 130012| The audio and video parameters when applying for upload are inconsistent with the first application |<br>| 130013| Repeat Login|<br>| 130014| The groupId attribute is not found on the specified channel|<br>| 130015| Login server verification failed |<br>| 130016| Channel off |<br>| 131001| All live vdn servers overloaded |<br>| 131002| channelId format parsing error|<br>| 131003| Internal error, user needs to retry |<br>| 131004| Protocol Parsing Error |<br>| 131005| vdnServer is disconnected from srcServer |<br>| 131006| Repeat Login|<br>| 131007| Failed to get channel from liveSrc |<br>| 131008| Insufficient balance |<br>| 131009| No tickets purchased |<br>| 131010| Tickets have expired |<br>| 131011| The number of people on this channel is over limit|<br>| 140001| Parsing error of VOIP protocol  |<br>| 140002| VOIP login failed |<br>| 140003| Pairing information error|<br>140004| Initialization failed of player decoding module |<br>| 140005| Insufficient balance of initiator |<br>140006| Insufficient balance of recipient  |<br>| 140007| The other party is disconnected |<br>| 150001| POST parameter error |<br>| 150002| Send to moonServer error|<br>| 150003| ScheduleProxy failed to send to scheduleXmlParse |<br>| 150004| sendToMoonServer error|<br>| 150005|ABC_ERRID_AUTH_FAILED|<br>| 160001| Chatroom Dispatch IO Failure |</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-09-03T10:02:34.567Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-09-17T03:15:46.611Z" itemprop="dateModified">Last updated<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="android-beauty-callback.html" class="article-footer-prev" title="beauty"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="ios-1.html" class="article-footer-next" title="1.prerequisite"><span>Next</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>

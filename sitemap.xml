@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/android-errCode.html</loc>
+    
+    <lastmod>2019-09-17T03:15:46.611Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/download/index.html</loc>
     
-    <lastmod>2019-09-04T09:29:16.464Z</lastmod>
+    <lastmod>2019-09-17T03:15:46.586Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3.html</loc>
+    
+    <lastmod>2019-09-04T09:41:09.758Z</lastmod>
     
   </url>
   
@@ -299,13 +313,6 @@
     <loc>http://docs.starrtc.com/en/docs/win-7.html</loc>
     
     <lastmod>2019-09-03T10:02:34.568Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-errCode.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.567Z</lastmod>
     
   </url>
   
