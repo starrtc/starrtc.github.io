@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/web-3.html</loc>
+    
+    <lastmod>2019-09-18T08:18:28.112Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/android-errCode.html</loc>
     
     <lastmod>2019-09-17T03:15:46.611Z</lastmod>
@@ -509,13 +516,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/hi3516a-3.html</loc>
     
     <lastmod>2019-08-02T09:32:21.291Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/web-3.html</loc>
-    
-    <lastmod>2019-08-02T09:32:21.289Z</lastmod>
     
   </url>
   
