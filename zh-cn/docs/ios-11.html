@@ -41,17 +41,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="starRTC文档">
   <!-- Open Graph -->
-  <meta name="description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHBeautyManager类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegat">
+  <meta name="description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHVideoSource类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegate:">
 <meta property="og:type" content="website">
 <meta property="og:title" content="starRTC文档">
 <meta property="og:url" content="http://docs.starrtc.com/zh-cn/docs/ios-11.html">
 <meta property="og:site_name" content="starRTC文档">
-<meta property="og:description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHBeautyManager类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegat">
+<meta property="og:description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHVideoSource类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegate:">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2019-07-09T02:16:18.083Z">
+<meta property="og:updated_time" content="2019-10-21T09:19:43.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
-<meta name="twitter:description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHBeautyManager类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegat">
+<meta name="twitter:description" content="美颜接入方法有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。一、在需要接收待美颜的类里面获取XHVideoSource类实例，并添加XHBeautyManagerDelegate代理sharedClient].beautyManager addDelegate:">
 <meta name="twitter:site" content="hexojs">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
@@ -100,11 +100,11 @@
                 <a href="https://github.com/starRTC/docs/edit/master/zh-cn/docs/ios-11.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h1 id="美颜接入方法" class="article-heading"><a href="#美颜接入方法" class="headerlink" title="美颜接入方法"></a>美颜接入方法<a class="article-anchor" href="#美颜接入方法" aria-hidden="true"></a></h1><p>有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。<br>我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。<br>一、在需要接收待美颜的类里面获取XHBeautyManager类实例，并添加XHBeautyManagerDelegate代理<br><figure class="highlight plain"><figcaption><span>sharedClient].beautyManager addDelegate:self];</span></figcaption><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line">二、onFrame将接收到摄像头采集的画面，用户可以拿视频数据做处理，然后通过backfillData函数将处理过的对象返回即可。</span><br><span class="line">注意：从onFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">注意：从onFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">注意：从onFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">```java</span><br><span class="line">/**</span><br><span class="line"> 收到待处理的美颜数据</span><br><span class="line"> @param videoData 数据</span><br><span class="line"> */</span><br><span class="line">-(void) onFrame:(StarVideoData *) videoData</span><br><span class="line">&#123;</span><br><span class="line">   // 直接回填数据</span><br><span class="line">    [[XHClient sharedClient].beautyManager backfillData:videoData];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+                <h1 id="美颜接入方法" class="article-heading"><a href="#美颜接入方法" class="headerlink" title="美颜接入方法"></a>美颜接入方法<a class="article-anchor" href="#美颜接入方法" aria-hidden="true"></a></h1><p>有用户在使用SDK时提出需要接入美颜功能,所以我们增加了这个美颜功能的接口。<br>我们通过代理函数的方式，将采集到的视频画面暴露给用户，用户可以拿视频数据去美颜，美颜之后再回填到SDK里即可。<br>一、在需要接收待美颜的类里面获取XHVideoSource类实例，并添加XHBeautyManagerDelegate代理<br><figure class="highlight plain"><figcaption><span>sharedClient].beautyManager addDelegate:self];</span></figcaption><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line">二、onVideoFrame将接收到摄像头采集的画面将接收到摄像头采集的画面，onAudioFrame将接受到sdk采集的音频数据，用户可以拿音视频数据做处理，然后直接将处理过的对象返回即可。</span><br><span class="line">注意：从onVideoFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">注意：从onVideoFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">注意：从onVideoFrame方法拿到的视频数据格式为NV12，返回的对象里，数据也要NV12格式的，重要的事情说三遍!</span><br><span class="line">```java</span><br><span class="line">/**</span><br><span class="line"> 收到待处理的美颜数据</span><br><span class="line"> @param videoData 数据</span><br><span class="line"> */</span><br><span class="line">-(void) onFrame:(StarVideoData *) videoData</span><br><span class="line">&#123;</span><br><span class="line">   // 直接回填数据</span><br><span class="line">    [[XHClient sharedClient].beautyManager backfillData:videoData];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2019-07-09T02:16:18.083Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-10-21T09:19:43.110Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="ios-10.html" class="article-footer-prev" title="10.内网P2P直连通话"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="ios-12.html" class="article-footer-next" title="12.超级对讲机"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
