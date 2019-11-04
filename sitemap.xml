@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/android-10.html</loc>
+    
+    <lastmod>2019-11-04T02:33:40.496Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
     
     <lastmod>2019-11-04T02:29:52.706Z</lastmod>
@@ -852,13 +859,6 @@
     <loc>http://docs.starrtc.com/en/docs/ios-3.html</loc>
     
     <lastmod>2018-12-29T07:14:34.629Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-10.html</loc>
-    
-    <lastmod>2018-12-29T07:14:34.617Z</lastmod>
     
   </url>
   
