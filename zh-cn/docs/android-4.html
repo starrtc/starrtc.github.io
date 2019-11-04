@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="一对一消息文档里都是以发普通的文字消息为例，若有其他需求，将文字换成自己定义的JSON即可。 比如发图片，您可以上传到自己服务器或使用第3方图片存储（如七牛云，阿里云OSS等）将图片上传后，发送url即可。 4.1 接收一对一消息获取XHChatManager类实例并添加IXHChatManagerListener监听；XHChatManager chatManager = XHClient.ge">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-12-28T09:24:31.192Z">
+<meta property="og:updated_time" content="2019-11-04T02:29:52.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="一对一消息文档里都是以发普通的文字消息为例，若有其他需求，将文字换成自己定义的JSON即可。 比如发图片，您可以上传到自己服务器或使用第3方图片存储（如七牛云，阿里云OSS等）将图片上传后，发送url即可。 4.1 接收一对一消息获取XHChatManager类实例并添加IXHChatManagerListener监听；XHChatManager chatManager = XHClient.ge">
@@ -102,7 +102,7 @@
               <div class="article-content" itemprop="articleBody">
                 <h1 id="一对一消息" class="article-heading"><a href="#一对一消息" class="headerlink" title="一对一消息"></a>一对一消息<a class="article-anchor" href="#一对一消息" aria-hidden="true"></a></h1><p>文档里都是以发普通的文字消息为例，若有其他需求，将文字换成自己定义的JSON即可。</p>
 <p>比如发图片，您可以上传到自己服务器或使用第3方图片存储（如七牛云，阿里云OSS等）将图片上传后，发送url即可。</p>
-<h2 id="4-1-接收一对一消息" class="article-heading"><a href="#4-1-接收一对一消息" class="headerlink" title="4.1 接收一对一消息"></a>4.1 接收一对一消息<a class="article-anchor" href="#4-1-接收一对一消息" aria-hidden="true"></a></h2><p>获取XHChatManager类实例并添加IXHChatManagerListener监听；<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">XHChatManager chatManager = XHClient.getInstance().getChatManager();</span><br><span class="line">chatManager.addListener(<span class="keyword">new</span> IXHChatManagerListener() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onReceivedMessage</span><span class="params">(StarIMMessage message)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//收到消息</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<h2 id="4-1-接收一对一消息" class="article-heading"><a href="#4-1-接收一对一消息" class="headerlink" title="4.1 接收一对一消息"></a>4.1 接收一对一消息<a class="article-anchor" href="#4-1-接收一对一消息" aria-hidden="true"></a></h2><p>获取XHChatManager类实例并添加IXHChatManagerListener监听；<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">XHChatManager chatManager = XHClient.getInstance().getChatManager();</span><br><span class="line">chatManager.addListener(<span class="keyword">new</span> IXHChatManagerListener() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onReceivedMessage</span><span class="params">(StarIMMessage message)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//收到消息</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onReceivedSystemMessage</span><span class="params">(XHIMMessage message)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//收到系统消息</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
 <h2 id="4-2-发送一对一消息" class="article-heading"><a href="#4-2-发送一对一消息" class="headerlink" title="4.2 发送一对一消息"></a>4.2 发送一对一消息<a class="article-anchor" href="#4-2-发送一对一消息" aria-hidden="true"></a></h2><p>消息分“普通消息（sendMessage）”和“在线消息（sendOnLineMessage）”。</p>
 <p>“普通消息”是指正常的聊天消息，用户不在线时会缓存，再次上线时会取走所有的离线消息。</p>
 <p>“在线消息”只有对方在线才能收到，消息不会缓存。</p>
@@ -110,7 +110,7 @@
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-12-28T09:24:31.192Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-11-04T02:29:52.447Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="android-3.html" class="article-footer-prev" title="3.初始化(私有部署)"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="android-5.html" class="article-footer-next" title="5.群组消息"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>

@@ -2,6 +2,125 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.706Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-8.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.706Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-4.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.705Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-2.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.704Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-9.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.665Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-11.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.665Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-7.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.662Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/en/docs/android-3.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.658Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-9.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.509Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-7.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.476Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-3.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.475Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-10.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.458Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-8.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.454Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-6.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.448Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-4.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.447Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-2.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.starrtc.com/zh-cn/docs/android-11.html</loc>
+    
+    <lastmod>2019-11-04T02:29:52.436Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.starrtc.com/en/docs/ios-11.html</loc>
     
     <lastmod>2019-10-21T09:19:43.146Z</lastmod>
@@ -51,28 +170,7 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-3.html</loc>
-    
-    <lastmod>2019-09-04T09:41:09.758Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/android-5.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.877Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-7.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.877Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-9.html</loc>
     
     <lastmod>2019-09-03T10:02:34.877Z</lastmod>
     
@@ -177,13 +275,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-11.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.860Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/win-4.html</loc>
     
     <lastmod>2019-09-03T10:02:34.859Z</lastmod>
@@ -226,23 +317,9 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-8.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.623Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/ios-1.html</loc>
     
     <lastmod>2019-09-03T10:02:34.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-6.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.622Z</lastmod>
     
   </url>
   
@@ -261,13 +338,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/en/docs/android-4.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.620Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/en/docs/web-6.html</loc>
     
     <lastmod>2019-09-03T10:02:34.619Z</lastmod>
@@ -278,13 +348,6 @@
     <loc>http://docs.starrtc.com/en/docs/hi3516a-4.html</loc>
     
     <lastmod>2019-09-03T10:02:34.619Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/en/docs/android-2.html</loc>
-    
-    <lastmod>2019-09-03T10:02:34.609Z</lastmod>
     
   </url>
   
@@ -415,13 +478,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-3.html</loc>
-    
-    <lastmod>2019-09-03T10:02:33.795Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/aec-other.html</loc>
     
     <lastmod>2019-09-03T10:02:33.794Z</lastmod>
@@ -471,20 +527,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-8.html</loc>
-    
-    <lastmod>2019-08-07T02:11:13.528Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-11.html</loc>
-    
-    <lastmod>2019-08-07T02:11:13.509Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/web-10.html</loc>
     
     <lastmod>2019-08-07T02:11:13.503Z</lastmod>
@@ -493,13 +535,6 @@
   
   <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-1.html</loc>
-    
-    <lastmod>2019-08-07T02:11:13.492Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-9.html</loc>
     
     <lastmod>2019-08-07T02:11:13.492Z</lastmod>
     
@@ -565,13 +600,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/ios-12.html</loc>
     
     <lastmod>2019-07-30T06:53:03.942Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-7.html</loc>
-    
-    <lastmod>2019-07-26T09:03:41.050Z</lastmod>
     
   </url>
   
@@ -674,13 +702,6 @@
   </url>
   
   <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-6.html</loc>
-    
-    <lastmod>2019-07-04T09:20:15.189Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.starrtc.com/zh-cn/docs/android-5.html</loc>
     
     <lastmod>2019-07-04T09:20:15.187Z</lastmod>
@@ -740,13 +761,6 @@
     <loc>http://docs.starrtc.com/zh-cn/docs/ios-7.html</loc>
     
     <lastmod>2019-05-23T02:49:52.878Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-2.html</loc>
-    
-    <lastmod>2019-05-20T10:06:59.361Z</lastmod>
     
   </url>
   
@@ -859,20 +873,6 @@
     <loc>http://docs.starrtc.com/zh-cn/index.html</loc>
     
     <lastmod>2018-12-29T05:16:56.766Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-4.html</loc>
-    
-    <lastmod>2018-12-28T09:24:31.192Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.starrtc.com/zh-cn/docs/android-10.html</loc>
-    
-    <lastmod>2018-12-28T09:24:31.187Z</lastmod>
     
   </url>
   

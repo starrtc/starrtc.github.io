@@ -48,7 +48,7 @@
 <meta property="og:site_name" content="starRTC文档">
 <meta property="og:description" content="其他配套组件StarPlayer 视频播放器 StarPlayer是为SDK配套开发的视频播放组件，用来展示视频画面，具体使用方法参见demo。 API说明 //让player在窗口顶层，会挡住所在窗口的其它内容void setZOrderOnTop(boolean b); //让player在其他player之上，但还是在窗口的底层void setZOrderMediaOverlay(boole">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-12-28T09:24:31.187Z">
+<meta property="og:updated_time" content="2019-11-04T02:29:52.458Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="starRTC文档">
 <meta name="twitter:description" content="其他配套组件StarPlayer 视频播放器 StarPlayer是为SDK配套开发的视频播放组件，用来展示视频画面，具体使用方法参见demo。 API说明 //让player在窗口顶层，会挡住所在窗口的其它内容void setZOrderOnTop(boolean b); //让player在其他player之上，但还是在窗口的底层void setZOrderMediaOverlay(boole">
@@ -107,7 +107,7 @@
 <p>//设置player的显示模式<br>void setScalType(StarPlayerScaleType type);</p>
 <h2 id="StarWhitePanel-白板-amp-StarWhitePanel2-白板2" class="article-heading"><a href="#StarWhitePanel-白板-amp-StarWhitePanel2-白板2" class="headerlink" title="StarWhitePanel 白板 &amp; StarWhitePanel2 白板2"></a>StarWhitePanel 白板 &amp; StarWhitePanel2 白板2<a class="article-anchor" href="#StarWhitePanel-白板-amp-StarWhitePanel2-白板2" aria-hidden="true"></a></h2><p>StarWhitePanel是为SDK配套开发的教育白板类组件，可以实时直播手指在屏幕上划出的轨迹,具体使用方法参见demo。</p>
 <p>API说明</p>
-<p>//开始对外广播（直播者调用）<br>void publish();</p>
+<p>//开始对外广播（直播者调用）<br>void publish(IXHRealtimeDataSender ixhRealtimeDataSender,String selfUserId);</p>
 <p>//停止对外广播（直播者调用）<br>void pause();</p>
 <p>//填充轨迹数据<br>void setPaintData(byte[] data,String fromID);</p>
 <p>//清空历史轨迹<br>void clean();</p>
@@ -118,7 +118,7 @@
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-12-28T09:24:31.187Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
+                <time class="article-footer-updated" datetime="2019-11-04T02:29:52.458Z" itemprop="dateModified">上次更新<script type="text/javascript">document.write("："+(new Date()).toISOString().slice(0,10))</script></time>
 		<a href="android-9.html" class="article-footer-prev" title="9.互动直播"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="android-11.html" class="article-footer-next" title="11.超级对讲机"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
             </div>
